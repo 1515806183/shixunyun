@@ -1,0 +1,2 @@
+LINUX故障诊断与调整题目三：文件/examdata/result/resolve_dmesg_error不存在, ---error
+LINUX故障诊断与调整题目三：文件/examdata/result/resolve_dmesg_error不存在,grep service iptables stop失败 ---error
