@@ -1,0 +1,2 @@
+Linux软件安装与配置题目八：结果输出:2 不为3, ---error
+Linux软件安装与配置题目八：extundelete 无帮助信息输出, ---error

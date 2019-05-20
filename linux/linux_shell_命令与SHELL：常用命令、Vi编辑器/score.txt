@@ -1,0 +1,4 @@
+Linux命令与SHELL题目四：文件/examdata/result/function.sh不存在, ---error
+Linux命令与SHELL题目四：文件/examdata/result/function.sh不存在,egrep .*\(\)失败 ---error
+Linux命令与SHELL题目四：文件/examdata/result/function.sh不存在,过滤$1,$2失败 ---error
+Linux命令与SHELL题目四：文件/examdata/result/function.sh不存在,过滤return失败 ---error

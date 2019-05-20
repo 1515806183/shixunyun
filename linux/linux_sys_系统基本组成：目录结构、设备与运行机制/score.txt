@@ -1,0 +1,2 @@
+LINUX系统基本组成题目十二:文件/examdata/result/sshd_cconfig_location不存在, ---error
+LINUX系统基本组成题目十二:文件/examdata/result/sshd_cconfig_location不存在,无法检查输出情况, ---error

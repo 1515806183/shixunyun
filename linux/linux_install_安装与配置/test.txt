@@ -1,0 +1,28 @@
+
+Disk /dev/sda: 21.5 GB, 21474836480 bytes
+255 heads, 63 sectors/track, 2610 cylinders
+Units = cylinders of 16065 * 512 = 8225280 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0x000d45e3
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sda1   *           1          64      512000   83  Linux
+Partition 1 does not end on cylinder boundary.
+/dev/sda2              64        2611    20458496   8e  Linux LVM
+
+Disk /dev/mapper/vg_rhel65trainin-lv_root: 15.6 GB, 15623782400 bytes
+255 heads, 63 sectors/track, 1899 cylinders
+Units = cylinders of 16065 * 512 = 8225280 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0x00000000
+
+
+Disk /dev/mapper/vg_rhel65trainin-lv_swap: 1073 MB, 1073741824 bytes
+255 heads, 63 sectors/track, 130 cylinders
+Units = cylinders of 16065 * 512 = 8225280 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0x00000000
+

@@ -1,0 +1,3 @@
+Linux目录与文件管理题目二十二：文件/examdata/result/admins存在, ---ok
+Linux目录与文件管理题目二十二：文件所属组为:root, 不为manager ---error
+Linux目录与文件管理题目二十二：检查文件/examdata/result/admins权限不为drwxrws---错误, ---error
