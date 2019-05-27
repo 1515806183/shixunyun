@@ -1,0 +1,4 @@
+数据库数据段管理课件题目十四:文件/examdata/result/synonym_dept.log,不存在, ---error
+数据库数据段管理课件题目十四:数据库正常打开 ---ok
+数据库数据段管理课件题目十四:确认同义词PUBLIC_EMP是否已创建错误, ---error
+数据库数据段管理课件题目十四:确认同义词private_emp是否已创建错误, ---error

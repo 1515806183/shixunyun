@@ -1,0 +1,37 @@
+# -*- coding: utf-8 -*-
+# 保存正式score文件
+import commands, os
+save_address = "./score.txt"
+name = "/home/oracle/.bash_profile"
+
+
+def run():
+    try:
+        f = open(save_address, 'w')
+        if os.path.exists(name):
+            f.write("数据库安装与配置题目一:用户oracle存在, ---ok\n")
+            # 1
+            cmd = "cat %s" % name
+            com_ret = commands.getoutput(cmd).lower()
+
+            if "path" in com_ret and "$ORACLE_HOME/bin".lower() in com_ret and "ORACLE_SID".lower() in com_ret:
+                f.write("数据库安装与配置题目一:查看配置信息path,$ORACLE_HOME/bin,ORACLE_SID ---ok\n")
+            else:
+                f.write("数据库安装与配置题目一:查看配置信息path,$ORACLE_HOME/bin,ORACLE_SID ---error\n")
+
+        else:
+            f.write("数据库安装与配置题目一:用户oracle不存在, ---error\n")
+            f.write("数据库安装与配置题目一:用户oracle不存在,无法查看配置信息path,$ORACLE_HOME/bin,ORACLE_SID ---error\n")
+
+
+    except:
+        print("数据库安装与配置题目一:\033[0;34m失败\033[0m")
+        raise
+
+    else:
+        print("数据库安装与配置题目一:成功")
+        f.close()
+
+
+if __name__ == '__main__':
+    run()

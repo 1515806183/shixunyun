@@ -1,0 +1,34 @@
+# -*- coding: utf-8 -*-
+# 保存正式score文件
+import cx_Oracle, commands, os
+save_address = "./score.txt"
+name = "/examdata/result/query_reb_ind.log"
+
+
+def run():
+    f = open(save_address, 'w')
+    # 1
+    if os.path.exists(name):
+        f.write("数据库数据段管理课件题目十:文件%s,存在, ---ok\n" % name)
+        # 1.1
+        cmd = "cat %s" % name
+        com_ret = commands.getoutput(cmd).lower().replace(" ", "")
+
+        if "STATUS".lower().replace(" ", "") in com_ret \
+                and "Dba_indexes".lower().replace(" ", "") in com_ret \
+                and "Table_name='EMPLOYEES'".lower().replace(" ", "") in com_ret:
+            f.write("数据库数据段管理课件题目十:查看文件%s 配置信息存在 ---ok\n" % name)
+        else:
+            f.write("数据库数据段管理课件题目十:查看文件%s 配置信息不存在 ---error\n" % name)
+
+    else:
+        f.write("数据库数据段管理课件题目十:文件%s,不存在, ---error\n" % name)
+        f.write("数据库数据段管理课件题目十:文件%s,不存在,无法查看配置信息... ---error\n" % name)
+
+    # 关闭连接
+    f.close()
+    print("数据库数据段管理课件题目十:成功")
+
+
+if __name__ == '__main__':
+    run()
