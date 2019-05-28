@@ -19,17 +19,16 @@ def run():
     else:
         f.write("数据库数据段管理课件题目十四:文件%s,不存在, ---error\n" % name)
     # 2
-    try:
-        # 1 检查数据库是否能正常打开
-        conn = cx_Oracle.connect('{}/{}@{}:{}/{}'.format(username, pwd, ip, port, tns))
-        cursor = conn.cursor()
-        cursor.execute("select status from v$instance")
-        ret = cursor.fetchone()  # 返回('OPEN',)
-        if "OPEN" in ret:
-            f.write('数据库数据段管理课件题目十四:数据库正常打开 ---ok\n')
-
-    except:
-        f.write('数据库数据段管理课件题目十四:数据库打开错误 ---error\n')
+    f = open(save_address, 'w')
+    # 1 检查数据库是否能正常打开
+    conn = cx_Oracle.connect('{0}/{1}@{2}:{3}/{4}'.format(username, pwd, ip, port, tns))
+    cursor = conn.cursor()
+    cursor.execute("select status from v$instance")
+    ret = cursor.fetchone()  # 返回('OPEN',)
+    if "OPEN" in ret:
+        f.write('数据库参数维护课件题目一:数据库正常打开 ---ok\n')
+    else:
+        f.write('数据库参数维护课件题目一:数据库打开错误 ---error\n')
 
     # 3
     try:
