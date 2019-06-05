@@ -17,5 +17,6 @@ def run():
     f.close()
     print("%s:成功" % test_name)
 
+
 if __name__ == '__main__':
     run()
