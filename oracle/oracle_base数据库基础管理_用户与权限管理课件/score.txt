@@ -1,2 +1,4 @@
-用户与角色管理课件题目十四:数据库正常打开 ---ok
-用户与角色管理课件题目十四:查询examuser207是否具有权限正确, ---ok
+用户与角色管理课件题目二十三:数据库正常打开 ---ok
+用户与角色管理课件题目二十三:确认exam_management PROFILE已经删除错误, ---error
+用户与角色管理课件题目二十三:文件/examdata/result/query_profile_user212.log,不存在, ---error
+用户与角色管理课件题目二十三:查看文件/examdata/result/query_profile_user212.log不存在, 无法查询关键信息 ---error
