@@ -1,0 +1,2 @@
+LINUX综合or其他题目十三:文件/examdata/result/modify_yum.conf,不存在 ---error
+LINUX综合or其他题目十三:文件/examdata/result/modify_yum.conf,不存在无法过滤sed 1,3d /etc/yum.conf ---error
