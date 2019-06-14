@@ -10,6 +10,7 @@ def run():
     f = open(save_address, 'w')
     if os.path.exists(name):
         f.write("%s:文件%s,存在, ---ok\n" % (test_name, name))
+
         # 1
         cmd = "cat %s |egrep 'sed\s+1,3d\s+/etc/yum.conf'" % name
         com_ret = commands.getoutput(cmd).lower().replace(" ", "")
