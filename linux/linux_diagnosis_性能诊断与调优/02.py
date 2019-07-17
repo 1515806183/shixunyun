@@ -23,14 +23,14 @@ def run():
             com_ret_2 = commands.getoutput(cmd_2).lower()
 
             if com_ret_2:
-                f.write("Linux性能诊断与调优题目二：%s|awk '{print $8}'过滤成功, ---ok\n" % name)
+                f.write("Linux性能诊断与调优题目二：%s|awk '{print $7}'过滤成功, ---ok\n" % name)
             else:
-                f.write("Linux性能诊断与调优题目二：%s|awk '{print $8}'过滤失败, ---error\n" % name)
+                f.write("Linux性能诊断与调优题目二：%s|awk '{print $7}'过滤失败, ---error\n" % name)
 
         else:
             f.write("Linux性能诊断与调优题目二:文件%s不存在, ---error\n" % name)
             f.write("Linux性能诊断与调优题目二:文件%s不存在,无法过滤/examdata/result/top.txt|awk '{print $4}'  ---error\n" % name)
-            f.write("Linux性能诊断与调优题目二:文件%s不存在,无法过滤/examdata/result/top.txt|awk '{print $8}' ---error\n" % name)
+            f.write("Linux性能诊断与调优题目二:文件%s不存在,无法过滤/examdata/result/top.txt|awk '{print $7}' ---error\n" % name)
 
     except:
         print("Linux性能诊断与调优题目二:\033[0;34m失败\033[0m")
