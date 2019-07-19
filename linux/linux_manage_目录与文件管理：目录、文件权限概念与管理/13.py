@@ -20,7 +20,7 @@ def run():
             if com_ret_cat == com_ret:
                 f.write("Linux目录与文件管理题目十三：文件%s 字节数和行数一致, ---ok\n" % name)
             else:
-                f.write("Linux目录与文件管理题目十三：文件%s 字节数和行数一致, ---error\n" % name)
+                f.write("Linux目录与文件管理题目十三：文件%s 字节数和行数不一致, ---error\n" % name)
         else:
             f.write("Linux目录与文件管理题目十三：文件%s不存在, ---error\n" % name)
             f.write("Linux目录与文件管理题目十三：文件%s不存在,无法比较字节数和行数 ---error\n" % name)

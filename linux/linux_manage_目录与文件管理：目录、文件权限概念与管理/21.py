@@ -19,8 +19,9 @@ def run():
                 f.write("Linux目录与文件管理题目二十一：文件%s内容和/etc/fstab不一致, ---error\n" % name)
 
             # 2
-            cmd_ll = "ls -l /examdata/result/fstab.bak|awk -F " " '{print $4}'"
+            cmd_ll = "ls -l /examdata/result/fstab.bak| awk '{print $4}'"
             com_ret_ll = commands.getoutput(cmd_ll).lower()
+
             if "manager" in com_ret_ll:
                 f.write("Linux目录与文件管理题目二十一：文件%s属组输出内容为manager, ---ok\n" % name)
             else:
@@ -29,7 +30,7 @@ def run():
             # 3
             cmd_harry = "getfacl %s|egrep '(harry|natasha|other)'" % name
             com_ret_harry = commands.getoutput(cmd_harry).replace(' ','')
-            print com_ret_harry
+
             if "other::r--" in com_ret_harry and "user:natasha:---" in com_ret_harry and "user:harry:rw-" in com_ret_harry:
                 f.write("Linux目录与文件管理题目二十一：检查harry natasha及其他用户的权限设置正确, ---ok\n")
             else:
