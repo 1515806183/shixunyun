@@ -10,7 +10,7 @@ def test_04():
     try:
         if os.path.exists(linux_txt_4):
             with open(save_address, "w") as f:
-                f.write("LINUX安装与配置题目四：文件%s存在, ---ok\n" % linux_txt_4)
+                f.write("LINUX系统基本组成题目四：文件%s存在, ---ok\n" % linux_txt_4)
 
             cmd_check = "find /var ! -atime -90 > ./check_atime.txt"
             commands.getoutput(cmd_check)
@@ -25,21 +25,21 @@ def test_04():
 
             with open(save_address, "a+") as f:
                 if -10 < num < 10:
-                    f.write("LINUX安装与配置题目四：check_atime.txt  %s检查两个文件一致, ---ok\n" % linux_txt_4)
+                    f.write("LINUX系统基本组成题目四：check_atime.txt  %s检查两个文件一致, ---ok\n" % linux_txt_4)
                 else:
-                    f.write("LINUX安装与配置题目四：check_atime.txt  %s检查两个文件不一致, ---error\n" % linux_txt_4)
+                    f.write("LINUX系统基本组成题目四：check_atime.txt  %s检查两个文件不一致, ---error\n" % linux_txt_4)
         else:
             with open(save_address, "w") as f:
-                f.write("LINUX安装与配置题目四：文件%s不存在, ---error\n" % linux_txt_4)
+                f.write("LINUX系统基本组成题目四：文件%s不存在, ---error\n" % linux_txt_4)
 
             with open(save_address, "a+") as f:
-                f.write("LINUX安装与配置题目四：文件%s不存在,无法检查两个文件是否一致 ---error\n" % linux_txt_4)
+                f.write("LINUX系统基本组成题目四：文件%s不存在,无法检查两个文件是否一致 ---error\n" % linux_txt_4)
     except:
-        print("LINUX安装与配置题目四:\033[0;34m失败\033[0m")
+        print("LINUX系统基本组成题目四:\033[0;34m失败\033[0m")
         raise
 
     else:
-        print("LINUX安装与配置题目四:成功")
+        print("LINUX系统基本组成题目:成功")
 
 
 if __name__ == '__main__':

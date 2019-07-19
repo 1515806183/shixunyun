@@ -1,2 +1,2 @@
-LINUX系统基本组成题目十一：文件/examdata/result/hosts.bak存在, ---ok
-LINUX系统基本组成题目十一：文件/examdata/result/hosts.bak里包含日期和主机名, ---ok
+LINUX系统基本组成题目十二：检查显示几项为开启的, ---ok
+'

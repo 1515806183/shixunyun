@@ -12,8 +12,9 @@ def test_03():
             with open(save_address, "w") as f:
                 f.write("Linux日志管理与配置题目三：文件%s存在, ---ok\n" % linux_txt_3)
 
-            cmd_egrep = "egrep '^mail.*[[:space:]]+-/examdata/result/mail.log' /etc/rsyslog.conf"
+            cmd_egrep = "egrep '^mail.*[[:space:]]+-/examdata/result/mail.log' /examdata/result/mail.log"
             com_ret_egrep = commands.getoutput(cmd_egrep)
+            print com_ret_egrep
 
             with open(save_address, "a+") as f:
                 if com_ret_egrep == "":

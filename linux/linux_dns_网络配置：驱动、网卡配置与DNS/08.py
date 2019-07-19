@@ -34,11 +34,11 @@ def test_08():
             f.write("LINUX系统基本组成题目八：文件%s, %s不存在,无法进行过滤对比 ---error\n" % (linux_txt_8, linux_txt_8_1))
 
     except:
-        print("LINUX安装与配置题目八:\033[0;34m失败\033[0m")
+        print("LINUX系统基本组成题目八:\033[0;34m失败\033[0m")
         raise
 
     else:
-        print("LINUX安装与配置题目八:成功")
+        print("LINUX系统基本组成题目八:成功")
         f.close()
 
 

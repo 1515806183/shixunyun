@@ -29,11 +29,11 @@ def test_16():
             f.write("LINUX系统基本组成题目十一:文件%s不存在,无法进行过滤主机名日期对比 ---error\n" % file)
 
     except:
-        print("LINUX安装与配置题目十一:\033[0;34m失败\033[0m")
+        print("LINUX系统基本组成题目十一:\033[0;34m失败\033[0m")
         raise
 
     else:
-        print("LINUX安装与配置题目十一:成功")
+        print("LINUX系统基本组成题目十一:成功")
         f.close()
 
 

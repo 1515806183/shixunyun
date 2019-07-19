@@ -20,11 +20,11 @@ def test_14():
             f.write("LINUX系统基本组成题目十五：系统在引导菜单停留的时间为: %s秒, ---error\n" % ret)
 
     except:
-        print("LINUX安装与配置题目十五:\033[0;34m失败\033[0m")
+        print("LINUX系统基本组成题目十五:\033[0;34m失败\033[0m")
         raise
 
     else:
-        print("LINUX安装与配置题目十五:成功")
+        print("LINUX系统基本组成题目十五:成功")
         f.close()
 
 

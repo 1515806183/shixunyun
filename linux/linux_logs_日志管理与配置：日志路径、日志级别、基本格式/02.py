@@ -12,10 +12,10 @@ def test_02():
             with open(save_address, "w") as f:
                 f.write("Linux日志管理与配置题目二：文件%s存在, ---ok\n" % linux_txt_2)
 
-            cmd_egrep = "egrep '^*\.\*' /etc/rsyslog.conf|egrep -v '@|#'"
+            cmd_egrep = "egrep '^*\.\*' /etc/rsyslog.conf | egrep -v '@|#'"
             com_ret_egrep = commands.getoutput(cmd_egrep)
 
-            cmd_cat = "cat ./score.txt"
+            cmd_cat = "cat %s" % linux_txt_2
             com_ret_cat = commands.getoutput(cmd_cat)
 
             with open(save_address, "a+") as f:
