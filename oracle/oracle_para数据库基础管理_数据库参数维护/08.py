@@ -7,7 +7,7 @@ name = "/examdata/result/query_undo_retention.log"
 # 数据库信息
 username = "system"
 pwd = "SXadmin#1234"
-ip = "192.168.32.117"
+ip = "127.0.0.1"
 tns = "oradb"
 port = 1521
 

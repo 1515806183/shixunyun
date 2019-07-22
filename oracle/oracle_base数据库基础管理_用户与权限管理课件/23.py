@@ -9,7 +9,7 @@ save_address = "./score.txt"
 # 数据库信息
 username = "system"
 pwd = "SXadmin#1234"
-ip = "192.168.32.109"
+ip = "127.0.0.1"
 tns = "oradb"
 port = 1521
 
