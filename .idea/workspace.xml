@@ -2,11 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b7b5ce9-6e5e-40b5-922f-32abdd379da5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/linux/linux_manage_目录与文件管理：目录、文件权限概念与管理/07.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_manage_目录与文件管理：目录、文件权限概念与管理/07.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux/linux_manage_目录与文件管理：目录、文件权限概念与管理/11.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_manage_目录与文件管理：目录、文件权限概念与管理/11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux/linux_manage_目录与文件管理：目录、文件权限概念与管理/13.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_manage_目录与文件管理：目录、文件权限概念与管理/13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux/linux_manage_目录与文件管理：目录、文件权限概念与管理/21.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_manage_目录与文件管理：目录、文件权限概念与管理/21.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux/linux_manage_目录与文件管理：目录、文件权限概念与管理/score.txt" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_manage_目录与文件管理：目录、文件权限概念与管理/score.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux/linux_other/01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux/linux_other/02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux/linux_other/03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux/linux_other/04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux/linux_other/05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux/linux_other/06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux/linux_other/07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/02.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/04.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/06.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/07.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/08.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/09.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/10.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/11.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/score.txt" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/score.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_file_文件系统结构与管理/03.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_file_文件系统结构与管理/03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_file_文件系统结构与管理/08.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_file_文件系统结构与管理/08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_install_安装与配置/02.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_install_安装与配置/02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_install_安装与配置/score.txt" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_install_安装与配置/score.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_kernel_内核、用户限制参数/03.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_kernel_内核、用户限制参数/03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_kernel_内核、用户限制参数/04.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_kernel_内核、用户限制参数/04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_kernel_内核、用户限制参数/score.txt" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_kernel_内核、用户限制参数/score.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_logs_日志管理与配置：日志路径、日志级别、基本格式/02.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_logs_日志管理与配置：日志路径、日志级别、基本格式/02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_logs_日志管理与配置：日志路径、日志级别、基本格式/03.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_logs_日志管理与配置：日志路径、日志级别、基本格式/03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_openssl_安全加固：openssl升级/06.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_openssl_安全加固：openssl升级/06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_openssl_安全加固：openssl升级/score.txt" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_openssl_安全加固：openssl升级/score.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_rpm_软件安装与配置：RPM、YUM 与二进制方式-/05.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_rpm_软件安装与配置：RPM、YUM 与二进制方式-/05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_rpm_软件安装与配置：RPM、YUM 与二进制方式-/score.txt" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_rpm_软件安装与配置：RPM、YUM 与二进制方式-/score.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_shell_命令与SHELL：常用命令、Vi编辑器/02.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_shell_命令与SHELL：常用命令、Vi编辑器/02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_shell_命令与SHELL：常用命令、Vi编辑器/03.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_shell_命令与SHELL：常用命令、Vi编辑器/03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_shell_命令与SHELL：常用命令、Vi编辑器/04.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_shell_命令与SHELL：常用命令、Vi编辑器/04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_shell_命令与SHELL：常用命令、Vi编辑器/score.txt" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_shell_命令与SHELL：常用命令、Vi编辑器/score.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_sys_系统基本组成：目录结构、设备与运行机制/02.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_sys_系统基本组成：目录结构、设备与运行机制/02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_sys_系统基本组成：目录结构、设备与运行机制/03.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_sys_系统基本组成：目录结构、设备与运行机制/03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_sys_系统基本组成：目录结构、设备与运行机制/06.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_sys_系统基本组成：目录结构、设备与运行机制/06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_sys_系统基本组成：目录结构、设备与运行机制/07.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_sys_系统基本组成：目录结构、设备与运行机制/07_删除.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_sys_系统基本组成：目录结构、设备与运行机制/11.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_sys_系统基本组成：目录结构、设备与运行机制/11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux_sys_系统基本组成：目录结构、设备与运行机制/score.txt" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux_sys_系统基本组成：目录结构、设备与运行机制/score.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,10 +79,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/linux/linux_manage_目录与文件管理：目录、文件权限概念与管理/11.py">
+        <entry file="file://$PROJECT_DIR$/linux/linux_other/07.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linux/linux_other/06.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="61" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="18" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -60,6 +105,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>vg_rhe|65trainin</find>
+      <find>/examdata/result/extend.log</find>
+      <find>/examdata/result/rsyslog_log_level</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,38 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/10.py" />
-        <option value="$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/11.py" />
-        <option value="$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/12.py" />
-        <option value="$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/13.py" />
-        <option value="$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/15.py" />
-        <option value="$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/16.py" />
-        <option value="$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/17.py" />
-        <option value="$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/18.py" />
-        <option value="$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/19.py" />
-        <option value="$PROJECT_DIR$/doc/oracle/Oracle数据库基础管理_用户与权限管理课件__自动评分/manage_oracle_base.py" />
-        <option value="$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/20.py" />
-        <option value="$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/score.txt" />
-        <option value="$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/21.py" />
-        <option value="$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/22.py" />
-        <option value="$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/23.py" />
-        <option value="$PROJECT_DIR$/weblogic/WEBLOGIC_start启动与配置自动启动脚本/01.py" />
-        <option value="$PROJECT_DIR$/weblogic/WEBLOGIC_total内存参数、web.xml/01.py" />
-        <option value="$PROJECT_DIR$/weblogic/WEBLOGIC_total内存参数、web.xml/02.py" />
-        <option value="$PROJECT_DIR$/weblogic/WEBLOGIC_total内存参数、web.xml/03.py" />
-        <option value="$PROJECT_DIR$/weblogic/WEBLOGIC_total内存参数、web.xml/04.py" />
-        <option value="$PROJECT_DIR$/weblogic/WEBLOGIC_total内存参数、web.xml/05.py" />
-        <option value="$PROJECT_DIR$/weblogic/WEBLOGIC_total内存参数、web.xml/07.py" />
-        <option value="$PROJECT_DIR$/weblogic/WEBLOGIC_total内存参数、web.xml/08.py" />
-        <option value="$PROJECT_DIR$/weblogic/WEBLOGIC_total内存参数、web.xml/06.py" />
-        <option value="$PROJECT_DIR$/weblogic/WEBLOGIC_total内存参数、web.xml/09.py" />
-        <option value="$PROJECT_DIR$/weblogic/high/WEBLOGIC_solf安全与漏洞：补丁升级/01.py" />
-        <option value="$PROJECT_DIR$/weblogic/high/WEBLOGIC_solf安全与漏洞：补丁升级/02.py" />
-        <option value="$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/01.py" />
-        <option value="$PROJECT_DIR$/linux/linux_logs_日志管理与配置：日志路径、日志级别、基本格式/03.py" />
-        <option value="$PROJECT_DIR$/linux/linux_logs_日志管理与配置：日志路径、日志级别、基本格式/02.py" />
-        <option value="$PROJECT_DIR$/linux/linux_dns_网络配置：驱动、网卡配置与DNS/09.py" />
-        <option value="$PROJECT_DIR$/linux/linux_dns_网络配置：驱动、网卡配置与DNS/02.py" />
         <option value="$PROJECT_DIR$/linux/linux_dns_网络配置：驱动、网卡配置与DNS/04.py" />
         <option value="$PROJECT_DIR$/linux/linux_dns_网络配置：驱动、网卡配置与DNS/07.py" />
         <option value="$PROJECT_DIR$/linux/linux_dns_网络配置：驱动、网卡配置与DNS/08.py" />
@@ -118,6 +138,38 @@
         <option value="$PROJECT_DIR$/linux/linux_manage_目录与文件管理：目录、文件权限概念与管理/13.py" />
         <option value="$PROJECT_DIR$/linux/linux_manage_目录与文件管理：目录、文件权限概念与管理/21.py" />
         <option value="$PROJECT_DIR$/linux/linux_manage_目录与文件管理：目录、文件权限概念与管理/11.py" />
+        <option value="$PROJECT_DIR$/linux/linux_file_文件系统结构与管理/03.py" />
+        <option value="$PROJECT_DIR$/linux/linux_file_文件系统结构与管理/08.py" />
+        <option value="$PROJECT_DIR$/linux/linux_install_安装与配置/02.py" />
+        <option value="$PROJECT_DIR$/linux/linux_shell_命令与SHELL：常用命令、Vi编辑器/02.py" />
+        <option value="$PROJECT_DIR$/linux/linux_shell_命令与SHELL：常用命令、Vi编辑器/03.py" />
+        <option value="$PROJECT_DIR$/linux/linux_shell_命令与SHELL：常用命令、Vi编辑器/04.py" />
+        <option value="$PROJECT_DIR$/linux/linux_openssl_安全加固：openssl升级/06.py" />
+        <option value="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/01.py" />
+        <option value="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/02.py" />
+        <option value="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/04.py" />
+        <option value="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/06.py" />
+        <option value="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/07.py" />
+        <option value="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/08.py" />
+        <option value="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/09.py" />
+        <option value="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/10.py" />
+        <option value="$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/11.py" />
+        <option value="$PROJECT_DIR$/linux/linux_kernel_内核、用户限制参数/04.py" />
+        <option value="$PROJECT_DIR$/linux/linux_kernel_内核、用户限制参数/03.py" />
+        <option value="$PROJECT_DIR$/linux/linux_logs_日志管理与配置：日志路径、日志级别、基本格式/02.py" />
+        <option value="$PROJECT_DIR$/linux/linux_logs_日志管理与配置：日志路径、日志级别、基本格式/03.py" />
+        <option value="$PROJECT_DIR$/linux/linux_rpm_软件安装与配置：RPM、YUM 与二进制方式-/05.py" />
+        <option value="$PROJECT_DIR$/linux/linux_sys_系统基本组成：目录结构、设备与运行机制/02.py" />
+        <option value="$PROJECT_DIR$/linux/linux_sys_系统基本组成：目录结构、设备与运行机制/03.py" />
+        <option value="$PROJECT_DIR$/linux/linux_sys_系统基本组成：目录结构、设备与运行机制/06.py" />
+        <option value="$PROJECT_DIR$/linux/linux_sys_系统基本组成：目录结构、设备与运行机制/11.py" />
+        <option value="$PROJECT_DIR$/linux/linux_other/01.py" />
+        <option value="$PROJECT_DIR$/linux/linux_other/02.py" />
+        <option value="$PROJECT_DIR$/linux/linux_other/03.py" />
+        <option value="$PROJECT_DIR$/linux/linux_other/04.py" />
+        <option value="$PROJECT_DIR$/linux/linux_other/05.py" />
+        <option value="$PROJECT_DIR$/linux/linux_other/06.py" />
+        <option value="$PROJECT_DIR$/linux/linux_other/07.py" />
       </list>
     </option>
   </component>
@@ -151,7 +203,7 @@
               <item name="shixunyun" type="b2602c69:ProjectViewProjectNode" />
               <item name="shixunyun" type="462c0819:PsiDirectoryNode" />
               <item name="linux" type="462c0819:PsiDirectoryNode" />
-              <item name="linux_manage_目录与文件管理：目录、文件权限概念与管理" type="462c0819:PsiDirectoryNode" />
+              <item name="linux_other" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -168,16 +220,16 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\box_angent\vagrant\django18\shixunyun" />
-      <recent name="E:\box_angent\vagrant\django18\shixunyun\weblogic\base" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\box_angent\vagrant\django18\shixunyun\linux\linux_other" />
       <recent name="E:\box_angent\vagrant\django18\shixunyun\weblogic\high\WEBLOGIC_solf安全与漏洞：补丁升级" />
       <recent name="E:\box_angent\vagrant\django18\shixunyun\weblogic\WEBLOGIC_total内存参数、web.xml" />
       <recent name="E:\box_angent\vagrant\django18\shixunyun\weblogic\WEBLOGIC_start启动与配置自动启动脚本" />
       <recent name="E:\box_angent\vagrant\django18\shixunyun\oracle\oracle_base数据库基础管理_用户与权限管理课件" />
-      <recent name="D:\vagrant_2.2.3\django18\shixunyun\oracle\oracle_network数据库基础管理_数据库网络管理" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\box_angent\vagrant\django18\shixunyun" />
+      <recent name="E:\box_angent\vagrant\django18\shixunyun\weblogic\base" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -338,18 +390,19 @@
       <workItem from="1561945822571" duration="5853000" />
       <workItem from="1563260402086" duration="752000" />
       <workItem from="1563413648718" duration="3662000" />
-      <workItem from="1563500457434" duration="3045000" />
+      <workItem from="1563500457434" duration="3712000" />
+      <workItem from="1563760785813" duration="13531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28546000" />
+    <option name="totallyTimeSpent" value="42744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21015424" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21272494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -399,249 +452,126 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/weblogic/WEBLOGIC_total内存参数、web.xml/03.py" />
-    <entry file="file://$PROJECT_DIR$/weblogic/WEBLOGIC_total内存参数、web.xml/04.py" />
-    <entry file="file://$PROJECT_DIR$/weblogic/WEBLOGIC_total内存参数、web.xml/05.py" />
-    <entry file="file://$PROJECT_DIR$/weblogic/WEBLOGIC_total内存参数、web.xml/06.py" />
-    <entry file="file://$PROJECT_DIR$/weblogic/WEBLOGIC_total内存参数、web.xml/07.py" />
-    <entry file="file://$PROJECT_DIR$/weblogic/WEBLOGIC_total内存参数、web.xml/08.py" />
-    <entry file="file://$PROJECT_DIR$/weblogic/WEBLOGIC_total内存参数、web.xml/09.py" />
-    <entry file="file://$PROJECT_DIR$/weblogic/high/WEBLOGIC_solf安全与漏洞：补丁升级/02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="99" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weblogic/high/WEBLOGIC_solf安全与漏洞：补丁升级/01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weblogic/base/WEBLOGIC_total内存参数、web.xml/01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="31" column="62" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="31" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polling_weblogic_index.sql" />
-    <entry file="file://$PROJECT_DIR$/oracle/oracle_dict_数据库基础管理_常用数据字典与视图/01.py">
+    <entry file="file://$PROJECT_DIR$/linux/linux_install_安装与配置/03.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/oracle/oracle_dict_数据库基础管理_常用数据字典与视图/02.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oracle/oracle_dict_数据库基础管理_常用数据字典与视图/03.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oracle/oracle_dict_数据库基础管理_常用数据字典与视图/04.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oracle/oracle_dict_数据库基础管理_常用数据字典与视图/05.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oracle/oracle_dict_数据库基础管理_常用数据字典与视图/06.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oracle/oracle_dict_数据库基础管理_常用数据字典与视图/07.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/04.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="69" column="51" lean-forward="true" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/05.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/07.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="51" column="51" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/08.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="34" column="51" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oracle/oracle_base数据库基础管理_用户与权限管理课件/01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux/linux_logs_日志管理与配置：日志路径、日志级别、基本格式/03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux/linux_logs_日志管理与配置：日志路径、日志级别、基本格式/02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux/linux_dns_网络配置：驱动、网卡配置与DNS/04.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux/linux_dns_网络配置：驱动、网卡配置与DNS/08.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux/linux_dns_网络配置：驱动、网卡配置与DNS/09.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux/linux_dns_网络配置：驱动、网卡配置与DNS/10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux/linux_dns_网络配置：驱动、网卡配置与DNS/11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux/linux_dns_网络配置：驱动、网卡配置与DNS/13.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux/linux_dns_网络配置：驱动、网卡配置与DNS/14.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux/linux_dns_网络配置：驱动、网卡配置与DNS/15.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux/linux_dns_网络配置：驱动、网卡配置与DNS/16.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux/linux_dns_网络配置：驱动、网卡配置与DNS/01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux/linux_dns_网络配置：驱动、网卡配置与DNS/02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux/linux_dns_网络配置：驱动、网卡配置与DNS/03.py">
+    <entry file="file://$PROJECT_DIR$/linux/linux_openssl_安全加固：openssl升级/05.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+          <caret line="10" column="63" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linux/linux_dns_网络配置：驱动、网卡配置与DNS/05.py">
+    <entry file="file://$PROJECT_DIR$/linux/linux_install_安装与配置/02.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        <state relative-caret-position="450">
+          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linux/linux_dns_网络配置：驱动、网卡配置与DNS/06.py">
+    <entry file="file://$PROJECT_DIR$/linux/linux_rpm_软件安装与配置：RPM、YUM 与二进制方式-/01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="83" lean-forward="true" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
-        </state>
+        <state relative-caret-position="-90" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linux/linux_dns_网络配置：驱动、网卡配置与DNS/12.py">
+    <entry file="file://$PROJECT_DIR$/linux/linux_rpm_软件安装与配置：RPM、YUM 与二进制方式-/08.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="225">
           <caret line="15" column="77" lean-forward="true" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linux/linux_manage_目录与文件管理：目录、文件权限概念与管理/06.py">
+    <entry file="file://$PROJECT_DIR$/linux/linux_NTP_常用服务配置：NTP时钟服务、NFS服务配置、FTP服务配置/03.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oracle/oracle_para数据库基础管理_数据库参数维护/04.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oracle/oracle_para数据库基础管理_数据库参数维护/10.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblogic/base/WEBLOGIC_jdbc数据源（第7-第10题存在异议暂不处理）/01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="64" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="19" selection-end-column="64" />
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblogic/base/WEBLOGIC_jdbc数据源（第7-第10题存在异议暂不处理）/02.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblogic/base/WEBLOGIC_args控制台配置系统参数/02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="35" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linux/linux_dns_网络配置：驱动、网卡配置与DNS/07.py">
+    <entry file="file://$PROJECT_DIR$/weblogic/base/WEBLOGIC_args控制台配置系统参数/01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="330">
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="67" column="36" selection-end-line="75" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/06.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/07.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/08.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="52" lean-forward="true" selection-end-line="47" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/09.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_fdisk_磁盘存储管理：fdisk、LVM/11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
@@ -652,31 +582,186 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linux/linux_manage_目录与文件管理：目录、文件权限概念与管理/13.py">
+    <entry file="file://$PROJECT_DIR$/linux/linux_kernel_内核、用户限制参数/01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="76" lean-forward="true" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
+        <state relative-caret-position="-31" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_kernel_内核、用户限制参数/03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linux/linux_manage_目录与文件管理：目录、文件权限概念与管理/21.py">
+    <entry file="file://$PROJECT_DIR$/linux/linux_logs_日志管理与配置：日志路径、日志级别、基本格式/01.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_logs_日志管理与配置：日志路径、日志级别、基本格式/02.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="59" lean-forward="true" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+        <state relative-caret-position="210">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linux/linux_manage_目录与文件管理：目录、文件权限概念与管理/18.py">
+    <entry file="file://$PROJECT_DIR$/linux/linux_logs_日志管理与配置：日志路径、日志级别、基本格式/03.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="61" />
+        <state relative-caret-position="285">
+          <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linux/linux_manage_目录与文件管理：目录、文件权限概念与管理/11.py">
+    <entry file="file://$PROJECT_DIR$/linux/linux_rpm_软件安装与配置：RPM、YUM 与二进制方式-/05.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state relative-caret-position="450">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_dns_网络配置：驱动、网卡配置与DNS/01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_sys_系统基本组成：目录结构、设备与运行机制/02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_sys_系统基本组成：目录结构、设备与运行机制/03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_sys_系统基本组成：目录结构、设备与运行机制/07_删除.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_sys_系统基本组成：目录结构、设备与运行机制/06.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_sys_系统基本组成：目录结构、设备与运行机制/11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_kernel_内核、用户限制参数/04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_openssl_安全加固：openssl升级/06.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_other综合or其他/08.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_other综合or其他/01.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_shell_命令与SHELL：常用命令、Vi编辑器/03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_shell_命令与SHELL：常用命令、Vi编辑器/02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="37" column="78" lean-forward="true" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_shell_命令与SHELL：常用命令、Vi编辑器/score.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_shell_命令与SHELL：常用命令、Vi编辑器/04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblogic/base/WEBLOGIC_args控制台配置系统参数/06.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblogic/base/WEBLOGIC_insatll图形、字符安装/01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_other/01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_other/03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_other/02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_other/04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_other/05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_other/06.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="61" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="18" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux_other/07.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

@@ -13,22 +13,18 @@ def test_03():
                 f.write("Linux日志管理与配置题目三：文件%s存在, ---ok\n" % linux_txt_3)
 
             cmd_egrep = "egrep '^mail.*[[:space:]]+-/examdata/result/mail.log' /examdata/result/mail.log"
-            com_ret_egrep = commands.getoutput(cmd_egrep)
-            print com_ret_egrep
+            com_ret_egrep = commands.getoutput(cmd_egrep).lower().replace(" ", "")
 
             with open(save_address, "a+") as f:
-                if com_ret_egrep == "":
-                    f.write("Linux日志管理与配置题目三：查看 mail.*级别日志失败, ---error\n")
-
+                if com_ret_egrep:
+                    f.write("Linux日志管理与配置题目三：查看  mail.*级别日志路径成功, ---ok\n")
                 else:
-                    f.write("Linux日志管理与配置题目三：查看  mail.*级别日志成功, ---ok\n")
+                    f.write("Linux日志管理与配置题目三：查看 mail.*级别日志路径失败, ---error\n")
 
         else:
             with open(save_address, "w") as f:
                 f.write("Linux日志管理与配置题目三：文件%s不存在, ---error\n" % linux_txt_3)
-
-            with open(save_address, "a+") as f:
-                f.write("Linux日志管理与配置题目三：文件%s不存在,无法查询 mail.*级别日志 ---error\n" % linux_txt_3)
+                f.write("Linux日志管理与配置题目三：文件%s不存在,无法查询 mail.*级别日志路径 ---error\n" % linux_txt_3)
 
     except:
         print("Linux日志管理与配置题目三:\033[0;34m失败\033[0m")

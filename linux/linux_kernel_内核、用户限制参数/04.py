@@ -7,8 +7,9 @@ save_address = "./score.txt"
 def run():
     try:
         f = open(save_address, 'w')
-        cmd_grep = "sysctl -p 2>/dev/null |egrep 'net.ipv4.ip_local_port_range = 1024\s+65000'"
+        cmd_grep = "sysctl -p"
         com_ret = commands.getoutput(cmd_grep).replace(" ", "")
+        print com_ret
         if 'net.ipv4.ip_local_port_range=102465000' in com_ret:
             f.write("LINUX内核用户限制参数题目四：grep net.ipv4.ip_local_port_range = 1024 65000成功, ---ok\n")
         else:

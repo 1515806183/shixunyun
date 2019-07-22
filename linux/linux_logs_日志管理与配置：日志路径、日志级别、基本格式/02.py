@@ -22,14 +22,11 @@ def test_02():
                 if com_ret_egrep in com_ret_cat:
                     f.write("Linux日志管理与配置题目二：输出一致, ---ok\n")
                 else:
-                    with open(save_address, "a+") as f:
-                        f.write("Linux日志管理与配置题目二：输出不一致, ---error\n")
+                    f.write("Linux日志管理与配置题目二：输出不一致, ---error\n")
 
         else:
             with open(save_address, "w") as f:
                 f.write("Linux日志管理与配置题目二：文件%s不存在, ---error\n" % linux_txt_2)
-
-            with open(save_address, "a+") as f:
                 f.write("Linux日志管理与配置题目二：文件%s不存在,无法进行输出比较 ---error\n" % linux_txt_2)
 
     except:

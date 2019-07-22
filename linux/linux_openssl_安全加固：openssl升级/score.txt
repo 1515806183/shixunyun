@@ -1,5 +1,5 @@
 LINUX安全加固openssl升级题目六：用户test2不存在, ---error
 LINUX安全加固openssl升级题目六：用户test2不存在,/etc/fstab /home/test2/fstab比较两文件无法比较 ---error
-LINUX安全加固openssl升级题目六：文件/examdata/result/get_ftp_file.log不存在, ---error
-LINUX安全加固openssl升级题目六：文件/examdata/result/get_ftp_file.log不存在,grep remote: /etc/fstab失败 ---error
-LINUX安全加固openssl升级题目六：文件/examdata/result/get_ftp_file.log不存在,grep received in失败 ---error
+LINUX安全加固openssl升级题目六：文件/examdata/result/get_ftp_file.log存在, ---ok
+LINUX安全加固openssl升级题目六：文件/examdata/result/get_ftp_file.log grep remote: /etc/fstab成功, ---ok
+LINUX安全加固openssl升级题目六：文件/examdata/result/get_ftp_file.log grep received in失败, ---error

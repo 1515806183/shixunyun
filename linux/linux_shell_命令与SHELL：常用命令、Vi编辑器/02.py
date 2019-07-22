@@ -34,14 +34,11 @@ def test_02():
             with open(save_address, "a+") as f:
                 f.write("Linux命令与SHELL题目二：文件%s存在, ---ok\n" % linux_txt_2_2)
 
-            cmd_cat = "cat /examdata/result/ping_log | grep '100% \s packet \s' --color=auto"
-            com_ret_cat = commands.getoutput(cmd_cat).lower()
+            cmd_cat = "head -n 5 /examdata/result/ping_log | grep '100%'"
+            com_ret_cat = commands.getoutput(cmd_cat).replace(" ", "").lower()
             with open(save_address, "a+") as f:
-                if "100%" in com_ret_cat and "packet" in com_ret_cat:
-                    if 'loss' in com_ret_cat:
-                        f.write("Linux命令与SHELL题目二：100% packet loss过滤成功, ---ok\n")
-                    else:
-                        f.write("Linux命令与SHELL题目二：100% packet loss过滤失败, ---error\n")
+                if "100%packetloss" in com_ret_cat:
+                    f.write("Linux命令与SHELL题目二：100% packet loss过滤成功, ---ok\n")
                 else:
                     f.write("Linux命令与SHELL题目二：100% packet loss过滤失败, ---error\n")
         else:

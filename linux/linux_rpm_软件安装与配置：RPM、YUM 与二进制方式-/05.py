@@ -12,12 +12,11 @@ def test_05():
         cmd_rpm = "rpm -qa | grep vim-common"
         com_ret_egrep = commands.getoutput(cmd_rpm).lower()
 
-
         with open(save_address, "w") as f:
             if "vim-common" in com_ret_egrep:
-                f.write("Linux软件安装与配置题目五：查询vim-common, ---ok\n")
-            else:
                 f.write("Linux软件安装与配置题目五：查询vim-common, ---error\n")
+            else:
+                f.write("Linux软件安装与配置题目五：查询vim-common, ---ok\n")
 
         # 2
         if os.path.exists(linux_txt_5):
@@ -36,8 +35,6 @@ def test_05():
         else:
             with open(save_address, "a+") as f:
                 f.write("LinuxLinux软件安装与配置题目五：文件%s不存在, ---error\n" % linux_txt_5)
-
-            with open(save_address, "a+") as f:
                 f.write("LinuxLinux软件安装与配置题目五：文件%s不存在,无法进行过滤查看 ---error\n" % linux_txt_5)
 
     except:

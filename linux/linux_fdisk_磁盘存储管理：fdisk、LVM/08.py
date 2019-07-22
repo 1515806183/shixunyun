@@ -34,7 +34,7 @@ def test_08():
         com_ret_cat = commands.getoutput(cmd_cat)
 
         with open(save_address, "a+") as f:
-            if "/dev/mapper" in com_ret_cat.lower():
+            if com_ret_cat:
                 f.write("Linux磁盘存储管理题目八：检查开机启动输出为/dev/mapper, ---ok\n")
             else:
                 f.write("Linux磁盘存储管理题目八：检查开机启动输出不为/dev/mapper, ---error\n")

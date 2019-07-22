@@ -26,17 +26,17 @@ def run():
         if os.path.exists(name):
             f.write("LINUX安全加固openssl升级题目六：文件%s存在, ---ok\n" % name)
             # 2.1
-            cmd_cat = "cat %s|grep 'remote:\s/etc/fstab'" % name
-            com_ret_cat = commands.getoutput(cmd_cat)
-            if 'remote:' in com_ret_cat and 'com_ret_cat' in com_ret_cat:
+            cmd_cat = "cat %s" % name
+            com_ret_cat = commands.getoutput(cmd_cat).replace(" ", "").lower()
+            if 'remote:/etc/fstab' in com_ret_cat:
                 f.write("LINUX安全加固openssl升级题目六：文件%s grep remote: /etc/fstab成功, ---ok\n" % name)
             else:
                 f.write("LINUX安全加固openssl升级题目六：文件%s grep remote: /etc/fstab失败, ---error\n" % name)
 
             # 2.2
-            cmd_cat = "cat %s |grep 'received\sin' --color=auto" % name
-            com_ret_cat = commands.getoutput(cmd_cat)
-            if 'received' in com_ret_cat and 'in' in com_ret_cat:
+            cmd_cat = "cat %s" % name
+            com_ret_cat = commands.getoutput(cmd_cat).replace(" ", "").lower()
+            if 'receivedin' in com_ret_cat:
                 f.write("LINUX安全加固openssl升级题目六：文件%s grep received in成功, ---ok\n" % name)
             else:
                 f.write("LINUX安全加固openssl升级题目六：文件%s grep received in失败, ---error\n" % name)

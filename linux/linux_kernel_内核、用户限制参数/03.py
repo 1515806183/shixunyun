@@ -7,9 +7,9 @@ save_address = "./score.txt"
 def run():
     try:
         f = open(save_address, 'w')
-        cmd_grep = "sysctl -p 2>/dev/null|grep 'net.ipv4.tcp_tw_reuse\s=\s1'"
+        cmd_grep = "sysctl -p 2>/dev/null|grep 'net.ipv4.tcp_tw_reuse'"
         com_ret = commands.getoutput(cmd_grep).replace(" ", "")
-        if 'net.ipv4.tcp_tw_reus=1' in com_ret:
+        if 'net.ipv4.tcp_tw_reuse=1' in com_ret:
             f.write("LINUX内核用户限制参数题目三：grep net.ipv4.tcp_tw_reuse = 1成功, ---ok\n")
         else:
             f.write("LINUX内核用户限制参数题目三：grep net.ipv4.tcp_tw_reuse = 1失败, ---error\n")

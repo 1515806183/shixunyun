@@ -13,17 +13,17 @@ def run():
             # 1
             num = True
             cmd_find = "ls -l /etc/ssh/sshd_config %s | awk '{print $2}'" % name
-            com_ret = commands.getoutput(cmd_find)
-            com_ret = com_ret.split('\n')
+            com_ret = commands.getoutput(cmd_find).split('\n')
+
             for ret in com_ret:
-                if ret != 2:
+                if ret == 2:
                     num = False
                     break
 
             if num:
-                f.write("LINUX系统基本组成题目六：检查%s, /etc/ssh/sshd_config存在超链接, ---ok\n" % name)
+                f.write("LINUX系统基本组成题目六：检查%s, /etc/ssh/sshd_config存在硬链接, ---ok\n" % name)
             else:
-                f.write("LINUX系统基本组成题目六：检查%s, /etc/ssh/sshd_config不存在超链接, ---error\n" % name)
+                f.write("LINUX系统基本组成题目六：检查%s, /etc/ssh/sshd_config不存在硬链接, ---error\n" % name)
             # 2
             cmd_diff = "diff /etc/ssh/sshd_config %s" % name
             ret = commands.getoutput(cmd_diff)

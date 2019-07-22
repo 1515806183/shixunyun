@@ -1,0 +1,2 @@
+Linux日志管理与配置题目三：文件/examdata/result/mail.log存在, ---ok
+Linux日志管理与配置题目三：查看  mail.*级别日志成功, ---ok

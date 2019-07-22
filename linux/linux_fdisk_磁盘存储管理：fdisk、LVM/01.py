@@ -35,7 +35,7 @@ def test_01():
 
 
             # 3
-            cmd_VG_1 = "cat %s| grep 'vg_rhe|65trainin'--color=auto" % linux_txt_1
+            cmd_VG_1 = "cat %s| grep 'rhel65trainin'--color=auto" % linux_txt_1
             com_ret_VG_1 = commands.getoutput(cmd_VG_1)
 
             with open(save_address, "a+") as f:

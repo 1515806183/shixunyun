@@ -7,7 +7,7 @@ save_address_test = './test.txt'
 
 def test_07():
     try:
-        cmd_df = "df|grep ext3|grep '/test'"
+        cmd_df = "df -T | grep ext3 | grep '/test'"
         com_ret_df = commands.getoutput(cmd_df)
 
         with open(save_address, "w") as f:

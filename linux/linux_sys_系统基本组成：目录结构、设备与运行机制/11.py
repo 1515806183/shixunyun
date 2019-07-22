@@ -10,9 +10,9 @@ def run():
         f = open(save_address, 'w')
         if os.path.exists(name):
             f.write("LINUX系统基本组成题目十一:文件%s存在, ---ok\n" % name)
-            cmd_1 = "ls /|wc -l"
+            cmd_1 = "ls / | wc -l"
             ret_1 = int(commands.getoutput(cmd_1))
-            cmd_2 = "ls %s|wc -l" % name
+            cmd_2 = "cat %s | wc -l" % name
             ret_2 = int(commands.getoutput(cmd_2))
 
             if ret_2 >= ret_1:

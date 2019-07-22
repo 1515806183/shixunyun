@@ -62,7 +62,7 @@ def test_10():
         com_ret_dir_raid1 = commands.getoutput(cmd_dir_raid1)
 
         with open(save_address, "a+") as f:
-            if "/dev/md1" in com_ret_dir_raid1 and "/examdata/dir_raid1" in com_ret_dir_raid0 and "ext3" in cmd_dir_raid0:
+            if "/dev/md1" in com_ret_dir_raid1 and "/examdata/dir_raid1" in com_ret_dir_raid1 and "ext3" in com_ret_dir_raid1:
                 f.write("Linux磁盘存储管理题目十: 检查/dev/md1/examdata/dir_raid1/ext3, ---ok\n")
             else:
                 f.write("Linux磁盘存储管理题目十: 检查/dev/md1/examdata/dir_raid1/ext3, ---error\n")

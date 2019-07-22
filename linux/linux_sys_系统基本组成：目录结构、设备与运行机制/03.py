@@ -11,11 +11,11 @@ def run():
         if os.path.exists(name):
             f.write("LINUX系统基本组成题目三：文件%s存在, ---ok\n" % name)
 
-            cmd = "df -h | grep -n 1 | awk '{print $5}' | sed -e 's/%//g'"
+            cmd = "df -h"
             com_ret = commands.getoutput(cmd).lower()
 
             cmd_cat = "cat %s" % name
-            com_ret_cat = commands.getoutput(cmd_cat)
+            com_ret_cat = commands.getoutput(cmd_cat).lower()
 
             if com_ret in com_ret_cat:
                 f.write("LINUX系统基本组成题目四：%s文件内容输出一致, ---ok\n" % name)

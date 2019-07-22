@@ -18,9 +18,9 @@ def test_04():
 
             with open(save_address, "a+") as f:
                 if com_ret_egrep == '':
-                    f.write("Linux命令与SHELL题目四：egrep .*\(\)失败, ---ok\n")
+                    f.write("Linux命令与SHELL题目四：egrep .*\(\)失败, ---error\n")
                 else:
-                    f.write("Linux命令与SHELL题目四：egrep .*\(\)成功, ---error\n")
+                    f.write("Linux命令与SHELL题目四：egrep .*\(\)成功, ---ok\n")
 
             # 2
             cmd_cat = "cat  /examdata/result/function.sh|egrep '(\$1|\$2)'"
@@ -45,14 +45,8 @@ def test_04():
         else:
             with open(save_address, "w") as f:
                 f.write("Linux命令与SHELL题目四：文件%s不存在, ---error\n" % linux_txt_4)
-
-            with open(save_address, "a+") as f:
                 f.write("Linux命令与SHELL题目四：文件%s不存在,egrep .*\(\)失败 ---error\n" % linux_txt_4)
-
-            with open(save_address, "a+") as f:
                 f.write("Linux命令与SHELL题目四：文件%s不存在,过滤$1,$2失败 ---error\n" % linux_txt_4)
-
-            with open(save_address, "a+") as f:
                 f.write("Linux命令与SHELL题目四：文件%s不存在,过滤return失败 ---error\n" % linux_txt_4)
 
 

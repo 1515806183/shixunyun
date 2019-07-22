@@ -11,7 +11,7 @@ def run():
         if os.path.exists(name):
             f.write("Linux文件系统结构与管理题目八：文件%s存在, ---ok\n" % name)
 
-            cmd_find = "ll -Zd %s|grep 'httpd_sys_content_t'" % name
+            cmd_find = "ls -Zld %s|grep 'httpd_sys_content_t'" % name
             com_ret_find = commands.getoutput(cmd_find).lower()
 
             if "httpd_sys_content_t" in com_ret_find:

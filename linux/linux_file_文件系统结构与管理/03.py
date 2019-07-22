@@ -25,7 +25,7 @@ def run():
             if ret_1 == ret_2:
                 f.write("Linux文件系统结构与管理题目三：目录文件对比输出一致, ---ok\n")
             else:
-                f.write("Linux文件系统结构与管理题目三：目录文件对比输出一致, ---error\n")
+                f.write("Linux文件系统结构与管理题目三：目录文件对比输出不一致, ---error\n")
 
         else:
             f.write("Linux文件系统结构与管理题目三:备份文件不存在, ---error\n")

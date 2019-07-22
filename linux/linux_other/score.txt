@@ -1,0 +1,1 @@
+Linux其他题目七:yum错误 ---error

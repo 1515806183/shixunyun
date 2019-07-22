@@ -20,11 +20,13 @@ def test_11():
                 f.write("Linux磁盘存储管理题目十一：grep ext4错误, ---error\n")
 
         # 2
-        cmd_file = "file 'df | grep '/examdata/result/file_use_as_disk' | awk '{print $1}'' | grep 'huge files'"
-        com_ret_file = commands.getoutput(cmd_file).lower()
+        cmd_file = "df | grep '/examdata/result/file_use_as_disk' | awk '{print $1}'"
+        com_ret_file = commands.getoutput(cmd_file)
+        cmd = "file %s | grep 'huge files'" % com_ret_file
+        cmd_ret = commands.getoutput(cmd).lower().replace(" ", "")
 
         with open(save_address, "a+") as f:
-            if "huge files" in com_ret_file:
+            if "hugefiles" in cmd_ret:
                 f.write("Linux磁盘存储管理题目十一：grep huge files成功, ---ok\n")
             else:
                 f.write("Linux磁盘存储管理题目十一：grep huge files错误, ---error\n")

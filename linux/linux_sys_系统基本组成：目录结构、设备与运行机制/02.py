@@ -2,6 +2,8 @@
 # 保存正式score文件
 import commands, os, re
 save_address = "./score.txt"
+save_test = "./test.txt"
+
 name = "/examdata/result/mem0.txt"
 
 
@@ -12,10 +14,10 @@ def run():
             f.write("LINUX系统基本组成题目二：文件%s存在, ---ok\n" % name)
 
             cmd_1 = "free -m"
-            com_ret_1 = commands.getoutput(cmd_1).lower()
+            com_ret_1 = commands.getoutput(cmd_1)
 
-            cmd = 'cat %s' % name
-            com_ret = commands.getoutput(cmd).lower()
+            cmd = 'cat %s' %  name
+            com_ret = commands.getoutput(cmd)
 
             if com_ret_1 in com_ret :
                 f.write("LINUX系统基本组成题目二：对比文件内容%s的输出一致, ---ok\n" % name)
