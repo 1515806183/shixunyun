@@ -1,3 +1,2 @@
-Linux性能诊断与调优题目一:文件/home/oracle1/.bash_profile不存在, ---error
-Linux性能诊断与调优题目一:文件/home/oracle1/.bash_profile不存在,无法输出文件大小 ---error
-Linux性能诊断与调优题目一:文件/home/oracle1/.bash_profile不存在,无法输出swpd st ---error
+数据库安装与配置题目一:用户oracle不存在, ---error
+数据库安装与配置题目一:用户oracle不存在,无法查看配置信息path,$ORACLE_HOME/bin,ORACLE_SID ---error

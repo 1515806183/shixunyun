@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import commands, os, re
-test_name = '安全与漏洞题目一'
+test_name = '安全与漏洞题目三'
 test_vlu = '检查输出结果Patch ID'
 
 save_address = "./score.txt"
@@ -13,7 +13,7 @@ def run():
     cmd = "%s" % name
     com_ret = commands.getoutput(cmd).lower().replace(" ", "")
 
-    if "Patch ID: EJUW".lower().replace(" ", "") in com_ret:
+    if "Patch ID: EJUW".lower().replace(" ", "") in com_ret and 'ZLNA'.lower().replace(" ", "") in com_ret:
         f.write("%s:%s正确 ---ok\n" % (test_name, test_vlu))
 
     else:
