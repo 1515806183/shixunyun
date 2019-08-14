@@ -1,2 +1,0 @@
-数据库数据字典与视图课件题目二:文件/examdata/result/query_segment_mb.result,不存在, ---error
-数据库数据字典与视图课件题目二:文件/examdata/result/query_segment_mb.result,不存在,无法查看配置信息dba_segments,owner,segment_name,segment_type,bytes,orderby ---error

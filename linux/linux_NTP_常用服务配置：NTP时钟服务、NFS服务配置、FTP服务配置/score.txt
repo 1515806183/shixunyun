@@ -1,2 +1,0 @@
-Linux常用服务配置题目四：文件/examdata/result/future_day不存在, ---error
-Linux常用服务配置题目四：文件/examdata/result/future_day不存在,无法进行输出比较 ---error

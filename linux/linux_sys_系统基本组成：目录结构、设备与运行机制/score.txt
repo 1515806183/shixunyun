@@ -1,2 +1,0 @@
-LINUX系统基本组成题目十一:文件/examdata/result/system_arch_dirs存在, ---ok
-LINUX系统基本组成题目十一：检查/examdata/result/system_arch_dirs,结果正常, ---ok

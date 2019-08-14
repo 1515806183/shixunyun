@@ -1,3 +1,0 @@
-Linux目录与文件管理题目十一：文件/examdata/result/new_messages/empty1存在, ---ok
-Linux目录与文件管理题目十一：软链接到/tmp目录下成功, ---ok
-Linux目录与文件管理题目十一：文件/examdata/result/new_messages/empty1组主和属组一致, ---ok

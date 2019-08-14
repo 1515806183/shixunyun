@@ -1,4 +1,0 @@
-Linux命令与SHELL题目四：文件/examdata/result/function.sh存在, ---ok
-Linux命令与SHELL题目四：egrep .*\(\)失败, ---ok
-Linux命令与SHELL题目四：过滤$1,$2失败, ---error
-Linux命令与SHELL题目四：过滤return失败, ---error

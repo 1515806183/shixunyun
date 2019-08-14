@@ -1,28 +1,29 @@
 
-Disk /dev/sda: 21.5 GB, 21474836480 bytes
-255 heads, 63 sectors/track, 2610 cylinders
-Units = cylinders of 16065 * 512 = 8225280 bytes
+Disk /dev/sda: 42.9 GB, 42949672960 bytes, 83886080 sectors
+Units = sectors of 1 * 512 = 512 bytes
 Sector size (logical/physical): 512 bytes / 512 bytes
 I/O size (minimum/optimal): 512 bytes / 512 bytes
-Disk identifier: 0x000d45e3
+Disk label type: dos
+Disk identifier: 0x0002950c
 
    Device Boot      Start         End      Blocks   Id  System
-/dev/sda1   *           1          64      512000   83  Linux
-Partition 1 does not end on cylinder boundary.
-/dev/sda2              64        2611    20458496   8e  Linux LVM
+/dev/sda1   *        2048     1026047      512000   83  Linux
+/dev/sda2         1026048    83886079    41430016   8e  Linux LVM
 
-Disk /dev/mapper/vg_rhel65trainin-lv_root: 15.6 GB, 15623782400 bytes
-255 heads, 63 sectors/track, 1899 cylinders
-Units = cylinders of 16065 * 512 = 8225280 bytes
+Disk /dev/mapper/centos-root: 41.3 GB, 41301311488 bytes, 80666624 sectors
+Units = sectors of 1 * 512 = 512 bytes
 Sector size (logical/physical): 512 bytes / 512 bytes
 I/O size (minimum/optimal): 512 bytes / 512 bytes
-Disk identifier: 0x00000000
 
 
-Disk /dev/mapper/vg_rhel65trainin-lv_swap: 1073 MB, 1073741824 bytes
-255 heads, 63 sectors/track, 130 cylinders
-Units = cylinders of 16065 * 512 = 8225280 bytes
+Disk /dev/mapper/centos-swap: 1073 MB, 1073741824 bytes, 2097152 sectors
+Units = sectors of 1 * 512 = 512 bytes
 Sector size (logical/physical): 512 bytes / 512 bytes
 I/O size (minimum/optimal): 512 bytes / 512 bytes
-Disk identifier: 0x00000000
+
+
+Disk /dev/mapper/docker-253:0-859696-pool: 107.4 GB, 107374182400 bytes, 209715200 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 65536 bytes / 65536 bytes
 

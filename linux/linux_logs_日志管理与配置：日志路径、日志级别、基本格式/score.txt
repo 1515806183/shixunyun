@@ -1,2 +1,2 @@
-Linux日志管理与配置题目三：文件/examdata/result/mail.log存在, ---ok
-Linux日志管理与配置题目三：查看  mail.*级别日志成功, ---ok
+Linux日志管理与配置题目一：文件/examdata/result/default_log_dir_and_filename不存在, ---error
+Linux日志管理与配置题目一：文件/examdata/result/default_log_dir_and_filename不存在, 无法查询到/var/log/messages---error

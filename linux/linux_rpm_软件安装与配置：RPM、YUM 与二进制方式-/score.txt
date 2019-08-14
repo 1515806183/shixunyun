@@ -1,3 +1,0 @@
-Linux软件安装与配置题目五：查询vim-common, ---error
-Linux软件安装与配置题目五：文件/examdata/result/vim_uninstall_log存在, ---ok
-Linux软件安装与配置题目五：查看文件/examdata/result/vim_uninstall_log过滤错误, ---error

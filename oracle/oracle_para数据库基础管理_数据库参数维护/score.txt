@@ -1,2 +1,0 @@
-数据库参数维护课件题目十一:文件/examdata/result/query_date_format.log,不存在, ---error
-数据库参数维护课件题目十一:查看文件/examdata/result/query_date_format.log 无法查看关键信息 ---error

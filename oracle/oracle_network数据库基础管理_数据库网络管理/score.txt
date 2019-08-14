@@ -1,3 +1,0 @@
-数据库网络管理课件题目一:文件/u01/app/oracle/product/11.2.0/dbhome_1/network/admin/listener.ora,不存在, ---error
-数据库网络管理课件题目一:查看文件/u01/app/oracle/product/11.2.0/dbhome_1/network/admin/listener.ora 无法查看监听的连接协议为TCP ---error
-数据库网络管理课件题目一:查看文件/u01/app/oracle/product/11.2.0/dbhome_1/network/admin/listener.ora 无法查看监听配置是否使用IP地址 ---error
