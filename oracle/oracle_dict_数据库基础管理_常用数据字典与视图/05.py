@@ -28,7 +28,6 @@ def run():
             f.write("数据库数据字典与视图课件题目五:文件%s,不存在,无法查看配置信息max_bytes,dba_ts_quotas,EXAMUSER201, ---error\n" % name)
 
     except:
-        print("数据库数据字典与视图课件题目五:\033[0;34m失败\033[0m")
         raise
 
     else:

@@ -28,7 +28,6 @@ def run():
         f.write("%s:查看%s错误 ---error\n" % (test_name, test_vlu_2))
 
     f.close()
-    print("%s:成功" % test_name)
 
 
 

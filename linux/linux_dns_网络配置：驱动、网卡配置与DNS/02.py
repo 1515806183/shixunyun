@@ -18,7 +18,6 @@ def test_02():
             else:
                 f.write("LINUX系统基本组成题目二：检查eth1的IP地址，正常输出不为192.168.100.3, ---error" + '\n')
     except:
-        print("LINUX系统基本组成题目二:\033[0;34m失败\033[0m")
         raise
 
     else:

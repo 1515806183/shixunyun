@@ -24,7 +24,6 @@ def test_12():
             f.write("LINUX系统基本组成题目十二：检查显示几项有不开启的, ---error\n'")
 
     except:
-        print("LINUX系统基本组成题目十二:\033[0;34m失败\033[0m")
         raise
 
     else:

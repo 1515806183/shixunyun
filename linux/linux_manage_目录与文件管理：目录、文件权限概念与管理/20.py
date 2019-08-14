@@ -28,7 +28,6 @@ def run():
 
 
     except:
-        print("Linux目录与文件管理题目二十:\033[0;34m失败\033[0m")
         raise
 
     else:

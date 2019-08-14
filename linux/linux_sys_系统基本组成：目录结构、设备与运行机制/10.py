@@ -16,7 +16,6 @@ def run():
             f.write(("LINUX系统基本组成题目十：检查出没有%s这个路径, ---error\n") % name)
 
     except:
-        print("LINUX系统基本组成题目十:\033[0;34m失败\033[0m")
         raise
 
     else:

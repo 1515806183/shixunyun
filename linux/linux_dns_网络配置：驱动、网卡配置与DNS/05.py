@@ -30,7 +30,6 @@ def test_05():
                 f.write("LINUX系统基本组成题目五：文件%s不存在,无法进行过滤查询 ---error\n" % linux_txt_5)
 
     except:
-        print("LINUX系统基本组成题目五:\033[0;34m失败\033[0m")
         raise
 
     else:

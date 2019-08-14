@@ -36,7 +36,6 @@ def run():
     if num:
         f.write("%s:%s错误 ---error\n" % (test_name, test_vlu))
     f.close()
-    print("%s:成功" % test_name)
 
 
 

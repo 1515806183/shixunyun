@@ -16,7 +16,6 @@ def run():
             f.write("LINUX内核用户限制参数题目三：grep net.ipv4.tcp_tw_reuse = 1失败, ---error\n")
 
     except:
-        print("LINUX内核用户限制参数题目三:\033[0;34m失败\033[0m")
         raise
 
     else:

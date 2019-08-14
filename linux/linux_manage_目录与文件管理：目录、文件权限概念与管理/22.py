@@ -33,7 +33,6 @@ def run():
             f.write("Linux目录与文件管理题目二十二：文件%s不存在, 无法检查文件权限 ---errory\n" % name)
 
     except:
-        print("Linux目录与文件管理题目二十二:\033[0;34m失败\033[0m")
         raise
 
     else:

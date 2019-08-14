@@ -27,7 +27,6 @@ def run():
             else:
                 f.write("Linux软件安装与配置题目八：extundelete 有帮助信息输出, ---ok\n")
     except:
-        print("Linux软件安装与配置题目八:\033[0;34m失败\033[0m")
         raise
 
     else:

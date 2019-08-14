@@ -26,7 +26,6 @@ def run():
             f.write("LINUX系统基本组成题目十一:文件%s不存在,无法检查输出情况, ---error\n" % name)
 
     except:
-        print("LINUX系统基本组成题目十一:\033[0;34m失败\033[0m")
         raise
 
     else:

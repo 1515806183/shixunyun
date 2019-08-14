@@ -45,7 +45,6 @@ def run():
                 f.write("LinuxLinux软件安装与配置题目七：文件%s不存在,无法进行比较 ---error\n" % linux_txt_7_2)
 
     except:
-        print("Linux软件安装与配置题目六:\033[0;34m失败\033[0m")
         raise
 
     else:

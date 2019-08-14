@@ -51,7 +51,7 @@ def test_03():
                 f.write('LINUX安装与配置题目三:文件%s不存在: 无法判断是否存在id:3:initdefault:---error' % filename_2 + '\n')
 
     except:
-        print("操作LINUX安装与配置题目三:\033[0;34m失败\033[0m")
+        raise
 
     else:
         print("操作LINUX安装与配置题目三:成功")

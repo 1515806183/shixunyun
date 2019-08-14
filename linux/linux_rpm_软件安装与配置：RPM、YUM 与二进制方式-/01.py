@@ -37,7 +37,6 @@ def run():
                 f.write("Linux软件安装与配置题目一：文件%s不存在,无法查询重定向 ---error\n" % linux_txt_1)
 
     except:
-        print("Linux软件安装与配置题目一:\033[0;34m失败\033[0m")
         raise
 
     else:

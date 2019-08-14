@@ -39,7 +39,7 @@ def test_01():
                 f.write("LINUX安装与配置题目一：系统不存在根分区和swap分区, ---ok" + '\n')
 
     except:
-        print("操作LINUX安装与配置题目一:\033[0;34m失败\033[0m")
+        raise
 
     else:
         print("操作LINUX安装与配置题目一:成功")

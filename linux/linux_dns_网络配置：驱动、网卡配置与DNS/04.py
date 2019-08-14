@@ -36,7 +36,6 @@ def test_04():
             with open(save_address, "a+") as f:
                 f.write("LINUX系统基本组成题目四：文件%s不存在,无法检查两个文件是否一致 ---error\n" % linux_txt_4)
     except:
-        print("LINUX系统基本组成题目四:\033[0;34m失败\033[0m")
         raise
 
     else:

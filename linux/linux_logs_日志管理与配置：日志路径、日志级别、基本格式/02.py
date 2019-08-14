@@ -31,7 +31,6 @@ def test_02():
                 f.write("Linux日志管理与配置题目二：文件%s不存在,无法进行输出比较 ---error\n" % linux_txt_2)
 
     except:
-        print("Linux日志管理与配置题目二:\033[0;34m失败\033[0m")
         raise
     else:
         print("Linux日志管理与配置题目二:成功")

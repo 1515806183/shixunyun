@@ -29,7 +29,6 @@ def run():
 
 
     except:
-        print("LINUX系统基本组成题目十五:\033[0;34m失败\033[0m")
         raise
 
     else:

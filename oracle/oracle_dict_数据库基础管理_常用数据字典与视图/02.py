@@ -30,7 +30,6 @@ def run():
             f.write("数据库数据字典与视图课件题目二:文件%s,不存在,无法查看配置信息dba_segments,owner,segment_name,segment_type,bytes,orderby ---error\n" % name)
 
     except:
-        print("数据库数据字典与视图课件题目二:\033[0;34m失败\033[0m")
         raise
 
     else:

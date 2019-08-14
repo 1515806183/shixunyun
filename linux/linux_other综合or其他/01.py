@@ -24,9 +24,6 @@ def run():
         f.write("%s:输出example.com错误 ---error\n" % test_name)
 
     f.close()
-    print("%s:成功" % test_name)
-
-
 
     with open(save_address) as f :
         num = f.readlines()

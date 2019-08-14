@@ -26,7 +26,6 @@ def run():
 
 
     except:
-        print("数据库安装与配置题目二:\033[0;34m失败\033[0m")
         raise
 
     else:

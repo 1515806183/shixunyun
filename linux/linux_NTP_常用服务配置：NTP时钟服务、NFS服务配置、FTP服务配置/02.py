@@ -45,7 +45,7 @@ def run():
                 f.write("Linux常用服务配置题目二：文件%s不存在,无法进行时间比较 ---error\n" % linux_txt_2)
 
     except:
-        print("Linux常用服务配置题目二:\033[0;34m失败\033[0m")
+        raise
 
     else:
         print("Linux常用服务配置题目二:成功")

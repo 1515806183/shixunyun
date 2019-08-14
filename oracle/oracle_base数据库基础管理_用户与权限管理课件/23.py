@@ -66,7 +66,6 @@ def run():
     f.close()
     cursor.close()
     conn.close()
-    print("%s:成功" % test_name)
 
 
 

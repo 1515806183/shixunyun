@@ -16,7 +16,6 @@ def run():
             f.write("LINUX安全加固openssl升级题目五：grep deny=5和unlock_time=600失败,---error\n")
 
     except:
-        print("LINUX安全加固openssl升级题目五:\033[0;34m失败\033[0m")
         raise
 
     else:

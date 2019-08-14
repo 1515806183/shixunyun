@@ -25,11 +25,9 @@ def run():
             f.write("%s:文件%s,不存在, ---error\n" % (test_name, name))
 
     except:
-        print("%s:\033[0;34m失败\033[0m" % test_name)
         raise
 
     else:
-        print("%s:成功" % test_name)
         f.close()
 
 

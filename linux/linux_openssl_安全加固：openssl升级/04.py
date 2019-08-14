@@ -16,7 +16,6 @@ def run():
             f.write("LINUX安全加固openssl升级题目四：grep net.ipv4.tcp_syncookies=1失败,---error\n")
 
     except:
-        print("LINUX安全加固openssl升级题目四:\033[0;34m失败\033[0m")
         raise
 
     else:

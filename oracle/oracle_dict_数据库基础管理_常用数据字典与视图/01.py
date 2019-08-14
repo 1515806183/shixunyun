@@ -30,7 +30,6 @@ def run():
 
 
     except:
-        print("数据库数据字典与视图课件题目一:\033[0;34m失败\033[0m")
         raise
 
     else:

@@ -36,7 +36,6 @@ def run():
                 f.write("Linux命令与SHELL题目三：文件%s不存在,无法过滤passwd ---error\n" % linux_txt_3)
 
     except:
-        print("Linux命令与SHELL题目三:\033[0;34m失败\033[0m")
         raise
 
     else:

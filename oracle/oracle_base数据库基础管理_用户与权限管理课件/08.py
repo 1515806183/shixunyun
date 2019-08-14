@@ -28,7 +28,6 @@ def run():
 
 
     f.close()
-    print("%s:成功" % test_name)
 
 
 

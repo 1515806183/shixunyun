@@ -30,7 +30,6 @@ def run():
         f.write("%s:查看文件%s 无法查看关键信息 ---error\n" % (test_name, name))
 
     f.close()
-    print("%s:成功" % test_name)
 
 
 

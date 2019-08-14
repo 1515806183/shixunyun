@@ -46,7 +46,6 @@ def run():
         f.write("%s:文件%s,不存在,无法%s ---error\n" % (test_name, name2, test_vlu3))
 
     f.close()
-    print("%s:成功" % test_name)
 
 
 

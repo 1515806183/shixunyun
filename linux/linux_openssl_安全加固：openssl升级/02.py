@@ -24,7 +24,6 @@ def run():
             f.write("LINUX安全加固openssl升级题目二：文件%s不存在,grep OpenSSH_5.3p1失败 ---error\n" % name)
 
     except:
-        print("LINUX安全加固openssl升级题目二:\033[0;34m失败\033[0m")
         raise
 
     else:

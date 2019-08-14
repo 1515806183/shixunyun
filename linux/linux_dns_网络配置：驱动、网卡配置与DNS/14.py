@@ -23,7 +23,6 @@ def test_14():
             f.write("LINUX系统基本组成题目十四：文件%s不存在提示信息hello, welcome to login linux  trainning system, ---error\n" % file_name)
 
     except:
-        print("LINUX系统基本组成题目十四:\033[0;34m失败\033[0m")
         raise
 
     else:

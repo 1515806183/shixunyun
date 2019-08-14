@@ -24,7 +24,6 @@ def run():
         f.write("%s:输出http://www.example.com错误 ---error\n" % test_name)
 
     f.close()
-    print("%s:成功" % test_name)
 
 
 

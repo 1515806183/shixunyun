@@ -24,7 +24,6 @@ def run():
                 f.write("Linux文件系统结构与管理题目五：过滤出来的结果是%sG, 不为4G ---ok\n" % com_num)
 
     except:
-        print("Linux文件系统结构与管理题目五:\033[0;34m失败\033[0m")
         raise
 
     else:

@@ -35,7 +35,6 @@ def run():
 
 
     except:
-        print("Linux软件安装与配置题目三:\033[0;34m失败\033[0m")
         raise
 
     else:

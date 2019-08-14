@@ -17,7 +17,6 @@ def run():
             f.write("Linux目录与文件管理题目十五：查询到用户%s, ---ok\n" % com_ret_cat)
 
     except:
-        print("Linux目录与文件管理题目十五\033[0;34m失败\033[0m")
         raise
 
     else:

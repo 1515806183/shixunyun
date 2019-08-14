@@ -43,7 +43,6 @@ def run():
             f.write("LINUX系统基本组成题目七：%s%s不存在备份文件,无法查看内容是否一致 ---error\n" % (name_1, com_2))
 
     except:
-        print("LINUX系统基本组成题目七:\033[0;34m失败\033[0m")
         raise
 
     else:

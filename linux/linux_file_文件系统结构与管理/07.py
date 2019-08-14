@@ -26,7 +26,6 @@ def run():
             f.write("Linux文件系统结构与管理题目七:文件%s不存在,无法过滤对比 ---error\n" % name)
 
     except:
-        print("Linux文件系统结构与管理题目七:\033[0;34m失败\033[0m")
         raise
 
     else:

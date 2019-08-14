@@ -28,7 +28,6 @@ def test_03():
                 f.write("Linux日志管理与配置题目三：文件%s不存在,无法查询 mail.*级别日志路径 ---error\n" % linux_txt_3)
 
     except:
-        print("Linux日志管理与配置题目三:\033[0;34m失败\033[0m")
         raise
     else:
         print("Linux日志管理与配置题目三:成功")

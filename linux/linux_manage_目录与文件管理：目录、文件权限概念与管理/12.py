@@ -24,7 +24,6 @@ def run():
             f.write("Linux目录与文件管理题目十二：文件%s不存在,无法比较文件%s和文件%s ---error\n" % (name, name, etc_name))
 
     except:
-        print("Linux目录与文件管理题目十二:\033[0;34m失败\033[0m")
         raise
 
     else:

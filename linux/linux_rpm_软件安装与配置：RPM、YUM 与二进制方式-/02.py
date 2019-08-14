@@ -20,7 +20,6 @@ def run():
                 f.write("Linux软件安装与配置题目二：设置httpd开机启动失败, ---error\n")
 
     except:
-        print("Linux软件安装与配置题目二:\033[0;34m失败\033[0m")
         raise
 
     else:

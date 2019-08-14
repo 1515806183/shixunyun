@@ -27,7 +27,6 @@ def test_01():
             with open(save_address, "a+") as f:
                 f.write("Linux日志管理与配置题目一：文件%s不存在, 无法查询到/var/log/messages---error\n" % linux_txt_1)
     except:
-        print("Linux日志管理与配置题目一:\033[0;34m失败\033[0m")
         raise
     else:
         print("Linux日志管理与配置题目一:成功")

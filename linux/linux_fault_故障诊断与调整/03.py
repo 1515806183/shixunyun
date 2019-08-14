@@ -23,7 +23,6 @@ def run():
             f.write("LINUX故障诊断与调整题目三：文件%s不存在,grep service iptables stop失败 ---error\n" % name)
 
     except:
-        print("LINUX故障诊断与调整题目三:\033[0;34m失败\033[0m")
         raise
 
     else:

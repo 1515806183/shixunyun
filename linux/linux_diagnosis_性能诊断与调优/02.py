@@ -34,11 +34,9 @@ def run():
             f.write("Linux性能诊断与调优题目二:文件%s不存在,无法过滤/examdata/result/top.txt|awk '{print $7}' ---error\n" % name)
 
     except:
-        print("Linux性能诊断与调优题目二:\033[0;34m失败\033[0m")
         raise
 
     else:
-        print("Linux性能诊断与调优题目二:成功")
         f.close()
 
     with open(save_address) as f :

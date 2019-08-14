@@ -50,7 +50,6 @@ def run():
                 f.write("Linux命令与SHELL题目二：文件%s不存在,100 packet loss过滤失败 ---error\n" % linux_txt_2_2)
 
     except:
-        print("Linux命令与SHELL题目二:\033[0;34m失败\033[0m")
         raise
 
     else:

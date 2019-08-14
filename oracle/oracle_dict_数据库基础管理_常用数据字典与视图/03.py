@@ -27,7 +27,6 @@ def run():
             f.write("数据库数据字典与视图课件题目三:文件%s,不存在,无法查看配置信息default_tablespace,dba_users ---error\n" % name)
 
     except:
-        print("数据库数据字典与视图课件题目三:\033[0;34m失败\033[0m")
         raise
 
     else:

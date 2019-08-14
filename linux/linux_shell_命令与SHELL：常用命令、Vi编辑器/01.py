@@ -36,7 +36,6 @@ def run():
             with open(save_address, "a+") as f:
                 f.write("Linux命令与SHELL题目一：文件%s不存在,无法进行grep empty ---error\n" % linux_txt_1_2)
     except:
-        print("Linux命令与SHELL题目一:\033[0;34m失败\033[0m")
         raise
 
     else:

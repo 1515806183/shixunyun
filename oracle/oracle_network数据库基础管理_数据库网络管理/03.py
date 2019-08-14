@@ -33,7 +33,6 @@ def run():
         f.write("%s:%s,统计文件大小错误, ---error\n" % (test_name, cmd))
 
     f.close()
-    print("%s:成功" % test_name)
 
 
 

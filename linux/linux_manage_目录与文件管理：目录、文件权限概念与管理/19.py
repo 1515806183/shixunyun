@@ -22,7 +22,6 @@ def run():
             f.write("Linux目录与文件管理题目十九：文件%s,用户stu01-stu10不存在, ---error\n" % name)
 
     except:
-        print("Linux目录与文件管理题目十九:\033[0;34m失败\033[0m")
         raise
 
     else:

@@ -16,7 +16,6 @@ def run():
             f.write("LINUX安全加固openssl升级题目一：grep 1.0.2k失败, ---error\n")
 
     except:
-        print("LINUX安全加固openssl升级题目一:\033[0;34m失败\033[0m")
         raise
 
     else:

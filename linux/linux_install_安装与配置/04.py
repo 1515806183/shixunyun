@@ -29,7 +29,7 @@ def test_04():
                 f.write("LINUX安装与配置题目四：检查cat /etc/sysconfig/i18n,输出结果为 %s , ---error" % com_ret + '\n')
 
     except:
-        print("操作LINUX安装与配置题目四:\033[0;34m失败\033[0m")
+        raise
 
     else:
         print("操作LINUX安装与配置题目四:成功")

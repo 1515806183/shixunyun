@@ -52,7 +52,6 @@ def run():
 
 
     except:
-        print("Linux命令与SHELL题目四:\033[0;34m失败\033[0m")
         raise
 
     else:

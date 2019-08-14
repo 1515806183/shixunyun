@@ -36,7 +36,7 @@ def test_05():
                 f.write("Linux磁盘存储管理题目五：文件%s不存在,无法过滤出ext4 tmpfs iso9660 ---error\n" % linux_txt_5)
 
     except:
-        print("操作LINUX安装与配置题目五:\033[0;34m失败\033[0m")
+        raise
 
     else:
         print("操作LINUX安装与配置题目五:成功")

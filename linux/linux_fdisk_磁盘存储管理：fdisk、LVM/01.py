@@ -59,7 +59,7 @@ def test_01():
                 f.write("Linux磁盘存储管理题目一：文件%s不存在,无法查询vg_rhe或65trainin ---error\n" % linux_txt_1)
 
     except:
-        print("操作LINUX安装与配置题目一:\033[0;34m失败\033[0m")
+        raise
 
     else:
         print("操作LINUX安装与配置题目一:成功")

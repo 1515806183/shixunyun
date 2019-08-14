@@ -33,7 +33,6 @@ def run():
             f.write("Linux文件系统结构与管理题目三:备份文件不存在, 无法进行对比 ---error\n")
 
     except:
-        print("Linux文件系统结构与管理题目三:\033[0;34m失败\033[0m")
         raise
 
     else:

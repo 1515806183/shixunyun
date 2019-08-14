@@ -16,7 +16,6 @@ def run():
             f.write("Linux目录与文件管理题目十六：用户tom不存在 ---error\n")
 
     except:
-        print("Linux目录与文件管理题目十六\033[0;34m失败\033[0m")
         raise
 
     else:

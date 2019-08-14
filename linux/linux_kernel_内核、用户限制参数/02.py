@@ -23,7 +23,6 @@ def run():
             f.write("LINUX内核用户限制参数题目二：文件%s不存在,grep kernel.shmmax = 2147483648失败 ---error\n" % name)
 
     except:
-        print("LINUX内核用户限制参数题目二:\033[0;34m失败\033[0m")
         raise
 
     else:

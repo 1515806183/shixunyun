@@ -32,7 +32,6 @@ def run():
             f.write("Linux文件系统结构与管理题目六:文件%s不存在,根据题意取错误答案,结果总数不为100 ---error\n" % name)
 
     except:
-        print("Linux文件系统结构与管理题目六:\033[0;34m失败\033[0m")
         raise
 
     else:

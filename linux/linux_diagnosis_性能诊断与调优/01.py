@@ -34,11 +34,9 @@ def run():
             f.write("Linux性能诊断与调优题目一:文件%s不存在,无法输出swpd st ---error\n" % name)
 
     except:
-        print("Linux性能诊断与调优题目一:\033[0;34m失败\033[0m")
         raise
 
     else:
-        print("Linux性能诊断与调优题目一:成功")
         f.close()
 
     with open(save_address) as f :

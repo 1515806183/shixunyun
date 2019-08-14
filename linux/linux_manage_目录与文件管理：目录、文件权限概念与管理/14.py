@@ -45,7 +45,6 @@ def run():
             f.write("Linux目录与文件管理题目十四：文件%s不存在,无法查看目录technology属性和权限 ---error\n" % name)
 
     except:
-        print("Linux目录与文件管理题目十四\033[0;34m失败\033[0m")
         raise
 
     else:

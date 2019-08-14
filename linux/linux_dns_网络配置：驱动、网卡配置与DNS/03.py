@@ -19,7 +19,6 @@ def test_03():
             else:
                 f.write("LINUX系统基本组成题目三：查询路由过滤成功, ---ok" + '\n')
     except:
-        print("LINUX系统基本组成题目三:\033[0;34m失败\033[0m")
         raise
 
     else:

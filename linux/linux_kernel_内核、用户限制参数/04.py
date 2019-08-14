@@ -17,7 +17,6 @@ def run():
             f.write("LINUX内核用户限制参数题目四：grep net.ipv4.ip_local_port_range = 1024 65000失败, ---error\n")
 
     except:
-        print("LINUX内核用户限制参数题目四:\033[0;34m失败\033[0m")
         raise
 
     else:

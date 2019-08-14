@@ -20,7 +20,10 @@ for files in files_list:
     f.close()
 
     for index, i in enumerate(res_read_list):
-        if ":\\033[0;34m失败\\033[0m" in i:
+        if "\\033[0;34m失败\\033[0m" in i:
+            res_read_list.pop(index)
+
+        if 'print("%s:成功" % test_name)' in i:
             res_read_list.pop(index)
 
 

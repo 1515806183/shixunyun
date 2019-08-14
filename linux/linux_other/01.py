@@ -39,7 +39,6 @@ def run():
         f.write("%s:文件%s不存在, 无法进行比较 ---error\n" % (test_name, txt_one))
 
     f.close()
-    print("%s:成功" % test_name)
 
 
 

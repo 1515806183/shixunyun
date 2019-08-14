@@ -25,7 +25,6 @@ def run():
             f.write("Linux文件系统结构与管理题目八:文件%s不存在,无法过滤httpd_sys_content_t ---error\n" % name)
 
     except:
-        print("Linux文件系统结构与管理题目八:\033[0;34m失败\033[0m")
         raise
 
     else:

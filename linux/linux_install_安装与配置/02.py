@@ -22,7 +22,7 @@ def test_02():
             else:
                 f.write("LINUX安装与配置题目二：系统当前环境swap 大小不为2G, ---error" + '\n')
     except:
-        print("操作LINUX安装与配置题目二:\033[0;34m失败\033[0m")
+        raise
 
     else:
         print("操作LINUX安装与配置题目二:成功")

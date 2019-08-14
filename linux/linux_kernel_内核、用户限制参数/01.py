@@ -32,7 +32,6 @@ def run():
             f.write("LINUX内核用户限制参数题目一：文件%s不存在,grep user:user06:---失败 ---error\n" % name)
 
     except:
-        print("LINUX内核用户限制参数题目一:\033[0;34m失败\033[0m")
         raise
 
     else:
