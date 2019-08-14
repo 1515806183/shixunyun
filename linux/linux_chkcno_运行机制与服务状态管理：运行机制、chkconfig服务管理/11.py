@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 import commands, os
+
 test_name = 'LINUX运行机制与服务状态管理题目十一'
 save_address = "/tmp/score.txt"
 name = '/etc/sysconfig/nfs'
@@ -11,7 +12,6 @@ test_vlu4 = "检查放行30001端口"
 test_vlu5 = "检查放行30002端口"
 test_vlu6 = "检查放行30003端口"
 test_vlu7 = "检查放行30004端口"
-
 
 
 def run():
@@ -102,7 +102,7 @@ def run():
         f.write("%s:%s错误 ---error\n" % (test_name, test_vlu7))
 
     f.close()
-    with open(save_address) as f :
+    with open(save_address) as f:
         num = f.readlines()
 
     # 总题目数
@@ -114,13 +114,11 @@ def run():
     timu_all = 0
     for i in num:
         if '---ok' in i:
-                timu_all += 1
+            timu_all += 1
     total_score = timu_all * average
 
-    print('\033[0;34;40m总题目: %s 道\033[0m' % sum)
-    print '\033[0;34;40m正  确: %s 道\033[0m' % timu_all
-    print '\033[0;34;40m详细内容: %s 路径下\033[0m' % save_address
     print total_score
+
 
 if __name__ == '__main__':
     run()
