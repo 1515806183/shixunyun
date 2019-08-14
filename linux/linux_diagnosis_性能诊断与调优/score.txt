@@ -1,2 +1,0 @@
-Linux性能诊断与调优题目四：过滤输出为:128 失败,不为1024 ---error
-Linux性能诊断与调优题目四：过滤输出net.core.somaxconn = 1024失败 ---error

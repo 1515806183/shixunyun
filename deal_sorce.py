@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import os
 
+
 # 获取文件名 返回一个文件名列表
 def file_name(file_dir):
     for root, dirs, files in os.walk(file_dir):
@@ -26,8 +27,8 @@ for files in files_list:
     # 寻找save_address = "./score.txt" 并进行替换
     for index, i in enumerate(res_read_list):
         if 'save_address = "./score.txt"' in i:
-            res_read_list.pop(4)
-            res_read_list.insert(4, 'save_address = "/tmp/score.txt"\n')
+            res_read_list.pop(index)
+            res_read_list.insert(index, 'save_address = "/tmp/score.txt"\n')
         if "if __name__ == '__main__':" in i:
             main_index = index
 

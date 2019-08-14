@@ -1,3 +1,0 @@
-Linux磁盘存储管理题目十一：grep ext4错误, ---error
-Linux磁盘存储管理题目十一：grep huge files错误, ---error
-Linux磁盘存储管理题目十一：输出结果为:49K, ---error

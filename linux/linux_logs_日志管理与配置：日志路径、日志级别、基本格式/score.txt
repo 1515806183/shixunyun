@@ -1,2 +1,0 @@
-Linux日志管理与配置题目一：文件/examdata/result/default_log_dir_and_filename不存在, ---error
-Linux日志管理与配置题目一：文件/examdata/result/default_log_dir_and_filename不存在, 无法查询到/var/log/messages---error
