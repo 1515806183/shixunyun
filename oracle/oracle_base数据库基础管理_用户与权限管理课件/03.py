@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 test_name = '用户与角色管理课件题目三'
-test_vlu_1 = '查询用户exam_user5状态'
+test_vlu_1 = '查询用户exam_user20状态'
 
 
 import cx_Oracle
