@@ -1,84 +1,84 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# 保存正式score文件
-import commands, os
-save_address = "/tmp/score.txt"
-save_address_test = './test.txt'
+try:
+    import commands, os
+    save_address = "/tmp/score.txt"
+    save_address_test = './test.txt'
 
-file_name01 = '/etc/inittab'
-filename_2 = "/examdata/result/default_boot_mode"
+    file_name01 = '/etc/inittab'
+    filename_2 = "/examdata/result/default_boot_mode"
 
 
-def test_03():
-    try:
-        # 判断/etc/inittab文件是否存在
-        if os.path.exists(file_name01):
-            with open(save_address, 'w') as f:
-                f.write("LINUX安装与配置题目三:%s文件存在, ---ok" % file_name01 + '\n')
+    def run():
+        try:
+            f = open(save_address, 'w')
+            # 判断/etc/inittab文件是否存在
+            if os.path.exists(file_name01):
 
-            cmd_1 = "tail /etc/inittab"
-            com_ret_1 = commands.getoutput(cmd_1)
-            if "id:3:initdefault:" in com_ret_1:
-                with open(save_address, 'a+') as f:
-                    f.write('LINUX安装与配置题目三:文件是以id:3:initdefault: 存在开头的一行,修改了原文件---error'+ '\n')
+                f.write("LINUX安装与配置题目三:%s文件存在 ---ok\n" % file_name01)
+
+                cmd_1 = "tail /etc/inittab"
+                com_ret_1 = commands.getoutput(cmd_1)
+                if "id:3:initdefault:" in com_ret_1:
+                    f.write('LINUX安装与配置题目三:文件是以id 3 initdefault 存在开头的一行,修改了原文件 ---error\n')
+                else:
+                    f.write("LINUX安装与配置题目三:文件不以id 3 initdefault 没修改原文件 ---ok\n")
+
             else:
-                with open(save_address, 'a+') as f:
-                    f.write("LINUX安装与配置题目三:文件不以id:3:initdefault: 没修改原文件---ok"+ '\n')
-        else:
-            with open(save_address, 'w') as f:
-                f.write("LINUX安装与配置题目三: %s 文件不存在, ---error" % file_name01 + '\n')
+                f.write("LINUX安装与配置题目三:%s 文件不存在 ---error\n" % file_name01)
+                f.write('LINUX安装与配置题目三:文件%s不存在: 无法判断是否存在id 3 initdefault ---error\n' % file_name01)
 
-            with open(save_address, 'a+') as f:
-                f.write('LINUX安装与配置题目三:文件%s不存在: 无法判断是否存在id:3:initdefault:---error' % file_name01 + '\n')
+            if os.path.exists(filename_2):
+                # 查询 /examdata/result/default_boot_mode
+                f.write("LINUX安装与配置题目三:%s文件存在 ---ok\n" % filename_2)
 
-        if os.path.exists(filename_2):
-            # 查询 /examdata/result/default_boot_mode
-            cmd = "tail /examdata/result/default_boot_mode"
-            com_ret = commands.getoutput(cmd)
+                cmd = "tail /examdata/result/default_boot_mode"
+                com_ret = commands.getoutput(cmd)
 
-            if "id:3:initdefault:" in com_ret:
-                with open(save_address, 'a+') as f:
-                    f.write("LINUX安装与配置题目三：检查%s 文件有id:3:initdefault: 开头一行, ---ok" % filename_2 + '\n')
+                if "id:3:initdefault:" in com_ret:
+                    f.write("LINUX安装与配置题目三:检查%s 文件有id 3 initdefault 开头一行 ---ok\n" % filename_2)
+                else:
+                    f.write("LINUX安装与配置题目三:检查%s 文件没有id 3 initdefault 开头一行 ---error\n" % filename_2)
+
             else:
-                with open(save_address, 'a+') as f:
-                    f.write("LINUX安装与配置题目三：检查%s 文件没有id:3:initdefault: 开头一行, ---error" % filename_2 + '\n')
+                f.write("LINUX安装与配置题目三:%s 文件不存在 ---error\n" % filename_2)
+                f.write('LINUX安装与配置题目三:文件%s不存在 无法判断是否存在id 3 initdefault ---error\n' % filename_2)
+
+        except Exception as e:
+            print str(e) + '---except'
 
         else:
-            with open(save_address, 'a+') as f:
-                f.write("LINUX安装与配置题目三: %s 文件不存在, ---error" % filename_2 + '\n')
+            f.close()
 
-            with open(save_address, 'a+') as f:
-                f.write('LINUX安装与配置题目三:文件%s不存在: 无法判断是否存在id:3:initdefault:---error' % filename_2 + '\n')
+        finally:
+            with open(save_address) as f:
+                num = f.readlines()
 
-    except:
-        raise
+            # 总题目数
+            sum = len(num)
+            # 一题多少分
+            average = 100 // sum
 
-    else:
-        print("操作LINUX安装与配置题目三:成功")
+            # 正确的题目总数
+            timu_all = 0
+            for i in num:
+                print i.strip("\n").split(":")[1]
 
-    with open(save_address) as f :
-        num = f.readlines()
+                if '---ok' in i:
+                    timu_all += 1
 
-    # 总题目数
-    sum = len(num)
-    # 一题多少分
-    average = 100 // sum
+            if timu_all == sum:
+                total_score = 100
+            else:
+                total_score = timu_all * average
 
-    # 正确的题目总数
-    timu_all = 0
-    for i in num:
-        if '---ok' in i:
-                timu_all += 1
-    total_score = timu_all * average
-
-    print total_score
+            print str(total_score) + ' ---score'
 
 
-if __name__ == '__main__':
-    test_03()
+except Exception as e:
+    print str(e) + '---except'
 
-
-
-
-
+else:
+    if __name__ == '__main__':
+        run()
 

@@ -1,55 +1,69 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# 保存正式score文件
-import commands, os, re
-save_address = "/tmp/score.txt"
-save_address_test = './test.txt'
-linux_txt_6 = "/examdata/result/rpmbuild_package_install.log"
+
+try:
+    import commands, os, re
+
+    save_address = "/tmp/score.txt"
+    save_address_test = './test.txt'
+    linux_txt_6 = "/examdata/result/rpmbuild_package_install.log"
 
 
-def run():
-    try:
-        # 1
-        cmd_rpm = "rpm -qa|grep e2fsprogs|wc -l"
-        com_ret_rpm = int(commands.getoutput(cmd_rpm))
-        with open(save_address, "w") as f:
+    def run():
+        try:
+            f = open(save_address, 'w')
+            # 1
+            cmd_rpm = "rpm -qa|grep e2fsprogs|wc -l"
+            com_ret_rpm = int(commands.getoutput(cmd_rpm))
+
             if com_ret_rpm == 3:
-                f.write("Linux软件安装与配置题目八：结果输出为:%s 为3, ---ok\n" % com_ret_rpm)
+                f.write("Linux软件安装与配置题目八:结果输出为%s 为3 ---ok\n" % com_ret_rpm)
             else:
-                f.write("Linux软件安装与配置题目八：结果输出:%s 不为3, ---error\n"  % com_ret_rpm)
+                f.write("Linux软件安装与配置题目八:结果输出%s 不为3 ---error\n" % com_ret_rpm)
 
-        # 2
-        cmd_help = "extundelete --help"
-        com_ret_help = commands.getoutput(cmd_help)
-        with open(save_address, "a+") as f:
+            # 2
+            cmd_help = "extundelete --help"
+            com_ret_help = commands.getoutput(cmd_help)
+
             if "command not found" in com_ret_help:
-                f.write("Linux软件安装与配置题目八：extundelete 无帮助信息输出, ---error\n")
+                f.write("Linux软件安装与配置题目八:extundelete --help 无帮助信息输出 ---error\n")
             else:
-                f.write("Linux软件安装与配置题目八：extundelete 有帮助信息输出, ---ok\n")
-    except:
-        raise
+                f.write("Linux软件安装与配置题目八:extundelete --help 有帮助信息输出 ---ok\n")
 
-    else:
-        print("Linux软件安装与配置题目八:成功")
+        except Exception as e:
+            print str(e) + ' ---except'
+
+        else:
+            f.close()
+
+        finally:
+            with open(save_address) as f:
+                num = f.readlines()
+
+            # 总题目数
+            sum = len(num)
+            # 一题多少分
+            average = 100 // sum
+
+            # 正确的题目总数
+            timu_all = 0
+            for i in num:
+                print i.strip("\n").split(":")[1]
+
+                if '---ok' in i:
+                    timu_all += 1
+
+            if timu_all == sum:
+                total_score = 100
+            else:
+                total_score = timu_all * average
+
+            print str(total_score) + ' ---score'
 
 
+except Exception as e:
+    print str(e) + ' ---except'
 
-    with open(save_address) as f :
-        num = f.readlines()
-
-    # 总题目数
-    sum = len(num)
-    # 一题多少分
-    average = 100 // sum
-
-    # 正确的题目总数
-    timu_all = 0
-    for i in num:
-        if '---ok' in i:
-                timu_all += 1
-    total_score = timu_all * average
-
-    print total_score
-
-if __name__ == '__main__':
-    run()
+else:
+    if __name__ == '__main__':
+        run()

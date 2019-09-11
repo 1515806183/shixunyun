@@ -1,59 +1,59 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-import commands, os
-test_name = 'Linux其他题目五'
-save_address = "/tmp/score.txt"
-txt_one = '/etc/yum.repos.d/extundelete.repo'
+try:
+    import commands
 
-test_vlu = 'grep "baseurl=file:///examdata/soft.iso/extundelete"'
-test_vlu1 = 'grep extundelete'
+    test_name = 'Linux其他题目五'
+    save_address = "/tmp/score.txt"
+    test_vlu = 'rpm -qa|grep extundelete'
 
 
-def run():
-    f = open(save_address, 'w')
-    if os.path.exists(txt_one):
-        f.write("%s:文件%s存在 ---ok\n" % (test_name, txt_one))
-        # 1
-        cmd = 'cat %s | grep "baseurl=file:///examdata/soft.iso/extundelete"' % txt_one
-        com_ret = commands.getoutput(cmd).lower().replace(" ", "")
+    def run():
+        try:
+            f = open(save_address, 'w')
 
-        if 'baseurl=file:///examdata/soft.iso/extundelete' in com_ret:
-            f.write("%s:%s正确 ---ok\n" % (test_name, test_vlu))
+            # 1
+            cmd = 'rpm -qa|grep extundelete'
+            com_ret = commands.getoutput(cmd).lower().replace(" ", "")
+
+            if com_ret:
+                f.write("%s:%s正确 ---ok\n" % (test_name, test_vlu))
+            else:
+                f.write("%s:%s错误 ---error\n" % (test_name, test_vlu))
+
+        except Exception as e:
+            print str(e) + ' ---except'
+
         else:
-            f.write("%s:%s错误 ---error\n" % (test_name, test_vlu))
-    else:
-        f.write("%s:文件%s不存在 ---error\n" % (test_name, txt_one))
-        f.write("%s:文件%s不存在, 无法进行grep ---error\n" % (test_name, txt_one))
+            f.close()
 
-    # 2
-    cmd = 'yum repolist|grep extundelete'
-    com_ret = commands.getoutput(cmd).lower().replace(" ", "")
+        finally:
+            with open(save_address) as f:
+                num = f.readlines()
 
-    if 'extundelete' in com_ret:
-        f.write("%s:%s正确 ---ok\n" % (test_name, test_vlu1))
-    else:
-        f.write("%s:%s错误 ---error\n" % (test_name, test_vlu1))
+            # 总题目数
+            sum = len(num)
+            # 一题多少分
+            average = 100 // sum
 
-    f.close()
+            # 正确的题目总数
+            timu_all = 0
+            for i in num:
+                print i.strip("\n").split(":")[1]
 
+                if '---ok' in i:
+                    timu_all += 1
 
+            if timu_all == sum:
+                total_score = 100
+            else:
+                total_score = timu_all * average
 
-    with open(save_address) as f :
-        num = f.readlines()
+            print str(total_score) + ' ---score'
 
-    # 总题目数
-    sum = len(num)
-    # 一题多少分
-    average = 100 // sum
+except Exception as e:
+    print str(e) + ' ---except'
 
-    # 正确的题目总数
-    timu_all = 0
-    for i in num:
-        if '---ok' in i:
-                timu_all += 1
-    total_score = timu_all * average
-
-    print total_score
-
-if __name__ == '__main__':
-    run()
+else:
+    if __name__ == '__main__':
+        run()
