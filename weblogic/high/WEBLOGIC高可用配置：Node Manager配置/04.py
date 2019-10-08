@@ -1,35 +1,30 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 try:
-    import commands
-    test_name = '配置文件参数调整题目九'
-    test_vlu = '检查是否存在setDomainEnv.sh相关备份文件'
-    test_vlu2 = '检查setDomainEnv.sh是否存在参数'
-
+    import commands, os, re
+    test_name = 'Node_Manager配置题目四'
     save_address = "/tmp/score.txt"
-    name = "find /weblogic/user_projects/domains/test_domain1/bin/ -name 'setDomainEnv.sh*' | wc -l"
-    name1 = "/weblogic/user_projects/domains/test_domain1/bin/setDomainEnv.sh"
 
+    domains_path = '/weblogic/user_projects/domains/test_domain6/bin/nodemanager.domains'
+    sh_1 = '参数test_domain6=/weblogic/user_projects/domains/test_domain6'
 
     def run():
         try:
             f = open(save_address, 'w')
-            # 1
-            cmd = "%s" % name
-            com_ret = commands.getoutput(cmd)
-            com_ret = int(com_ret)
-            if com_ret > 1:
-                f.write("%s:%s正确 ---ok\n" % (test_name, test_vlu))
-            else:
-                f.write("%s:%s错误 ---error\n" % (test_name, test_vlu))
-
-            cmd = "cat %s" % name1
-            com_ret = commands.getoutput(cmd).lower().replace(" ", "")
-            if 'JAVA_HOME="/weblogic/jdk160_29"'.lower().replace(" ", "") in com_ret:
-                f.write("%s:%s正确 ---ok\n" % (test_name, test_vlu2))
+            if os.path.exists(domains_path):
+                f.write("%s:文件%s存在 ---ok\n" % (test_name, domains_path))
+                # 1
+                cmd = "cat %s | grep test_domain6=/weblogic/user_projects/domains/test_domain6" % domains_path
+                sh_ret = commands.getoutput(cmd)
+                if sh_ret:
+                    f.write("%s:%s 正确 ---ok\n" % (test_name, sh_1))
+                else:
+                    f.write("%s:%s 错误 ---error\n" % (test_name, sh_1))
 
             else:
-                f.write("%s:%s错误 ---error\n" % (test_name, test_vlu2))
+                f.write("%s:文件%s不存在 ---error\n" % (test_name, domains_path))
+                f.write("%s:文件%s不存在 %s 错误 ---error\n" % (test_name, domains_path, sh_1))
+
         except Exception as e:
             print str(e) + '---except'
 

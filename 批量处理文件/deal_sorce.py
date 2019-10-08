@@ -95,10 +95,7 @@ else:
             if indexs >= index:
                 f.write(i)
 
-
-
-
-
         f.close
     else:
         print 'except:不存在'
+
