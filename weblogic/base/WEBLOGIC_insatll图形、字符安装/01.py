@@ -8,6 +8,7 @@ try:
 
     save_address = "/tmp/score.txt"
     name = "/weblogic/user_projects/domains/test_domainx"
+    name_1 = "/weblogic/user_projects/domains/test_domainx/config/config.xml"
 
 
     def run():
@@ -16,7 +17,7 @@ try:
             if os.path.exists(name):
                 f.write("%s:文件%s,存在  ---ok\n" % (test_name, name))
                 # 3.1
-                cmd = "cat %s" % name
+                cmd = "cat %s" % name_1
                 com_ret = commands.getoutput(cmd).lower().replace(" ", "")
                 if "<listen-port>8002</listen-port>".lower().replace(" ", "") in com_ret:
                     f.write("%s:%s正确 ---ok\n" % (test_name, test_vlu))
@@ -24,7 +25,7 @@ try:
                     f.write("%s:%s错误 ---error\n" % (test_name, test_vlu))
 
                 # 3.2
-                cmd = "cat %s" % name
+                cmd = "cat %s" % name_1
                 com_ret = commands.getoutput(cmd).lower().replace(" ", "")
                 if "<production-mode-enabled>true</production-mode-enabled>".lower().replace(" ", "") in com_ret:
                     f.write("%s:%s正确 ---ok\n" % (test_name, test_vlu1))

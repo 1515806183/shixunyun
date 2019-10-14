@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2540238f-f96d-4dd7-9b50-619b50ce674b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX内核、用户限制参数/LINUX内核、用户限制参数.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX内核、用户限制参数/manage_linux_kernel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX命令与SHELL：常用命令、Vi编辑器/LINUX命令与SHELL：常用命令、Vi编辑器.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX命令与SHELL：常用命令、Vi编辑器/manage_linux_shell.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX安全加固：openssl升级/LINUX安全加固：openssl升级.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX安全加固：openssl升级/manage_linux_security.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX安装与配置/LINUX安装与配置.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX安装与配置/manage_linux_install.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX性能诊断与调优/LINUX性能诊断与调优.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX性能诊断与调优/manage_linux_diagnosis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX故障诊断与调整/LINUX故障诊断与调整.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX故障诊断与调整/manage_linux_fault.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX文件系统结构与管理/LINUX文件系统结构与管理--------.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX文件系统结构与管理/manage_linux_file_os_ret.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX日志管理与配置：日志路径、日志级别、基本格式/LINUX日志管理与配置：日志路径、日志级别、基本格式----------------.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX日志管理与配置：日志路径、日志级别、基本格式/manage_linux_manage_log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX磁盘存储管理：fdisk、LVM/OK-LINUX磁盘存储管理：fdisk、LVM.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX磁盘存储管理：fdisk、LVM/manage_linux_disk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX系统基本组成：目录结构、设备与运行机制/LINUX系统基本组成：目录结构、设备与运行机制.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX系统基本组成：目录结构、设备与运行机制/manage_linux_sys_make.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX综合or其他/LINUX综合or其他.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX网络配置：驱动、网卡配置与DNS/LINUX网络配置：驱动、网卡配置与DNS.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX网络配置：驱动、网卡配置与DNS/manage_linux_network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX软件安装与配置：RPM、YUM 与二进制方式-----/LINUX软件安装与配置：RPM、YUM 与二进制方式-----.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX软件安装与配置：RPM、YUM 与二进制方式-----/manage_linux_install_software.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/LINUX运行机制与服务状态管理：运行机制、chkconfig服务管理/LINUX运行机制与服务状态管理：运行机制、chkconfig服务管理.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/Linux常用服务配置：NTP时钟服务、NFS服务配置、FTP服务配置/Linux常用服务配置：NTP时钟服务、NFS服务配置、FTP服务配置-----------------.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/Linux常用服务配置：NTP时钟服务、NFS服务配置、FTP服务配置/manage_linux_ser_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/其他/其他.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/目录与文件管理：目录、文件权限概念与管理_/manage_linux_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/linux/目录与文件管理：目录、文件权限概念与管理_/目录与文件管理：目录、文件权限概念与管理.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/oracle/Oracle数据库基础管理_安装与配置OUI、DBCA等工具的使用__自动评分/Oracle数据库基础管理_安装与配置OUI、DBCA等工具的使用__自动评分.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/oracle/Oracle数据库基础管理_安装与配置OUI、DBCA等工具的使用__自动评分/manage_oracle_install.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/oracle/Oracle数据库基础管理_常用数据字典与视图__自动评分/Oracle数据库基础管理_常用数据字典与视图__自动评分.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/oracle/Oracle数据库基础管理_常用数据字典与视图__自动评分/manage_oracle_dic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/oracle/Oracle数据库基础管理_数据库参数维护__自动评分/Oracle数据库基础管理_数据库参数维护__自动评分.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/oracle/Oracle数据库基础管理_数据库参数维护__自动评分/manage_oracle_para.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/oracle/Oracle数据库基础管理_数据库网络管理__自动评分/Oracle数据库基础管理_数据库网络管理__自动评分.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/oracle/Oracle数据库基础管理_数据库网络管理__自动评分/manage_oracle_network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/oracle/Oracle数据库基础管理_数据段管理__自动评分/Oracle数据库基础管理_数据段管理__自动评分.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/oracle/Oracle数据库基础管理_数据段管理__自动评分/manage_oracle_sql.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/oracle/Oracle数据库基础管理_用户与权限管理课件__自动评分/Oracle数据库基础管理_用户与权限管理课件__自动评分.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/oracle/Oracle数据库基础管理_用户与权限管理课件__自动评分/manage_oracle_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/oracle/oracle题目.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linux/linux_dns_网络配置：驱动、网卡配置与DNS/02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../linux/linux_dns_网络配置：驱动、网卡配置与DNS/02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linux/linux_dns_网络配置：驱动、网卡配置与DNS/03.py" beforeDir="false" afterPath="$PROJECT_DIR$/../linux/linux_dns_网络配置：驱动、网卡配置与DNS/03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linux/linux_dns_网络配置：驱动、网卡配置与DNS/07.py" beforeDir="false" afterPath="$PROJECT_DIR$/../linux/linux_dns_网络配置：驱动、网卡配置与DNS/07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linux/linux_dns_网络配置：驱动、网卡配置与DNS/10.py" beforeDir="false" afterPath="$PROJECT_DIR$/../linux/linux_dns_网络配置：驱动、网卡配置与DNS/10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linux/linux_dns_网络配置：驱动、网卡配置与DNS/11.py" beforeDir="false" afterPath="$PROJECT_DIR$/../linux/linux_dns_网络配置：驱动、网卡配置与DNS/11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linux/linux_dns_网络配置：驱动、网卡配置与DNS/13.py" beforeDir="false" afterPath="$PROJECT_DIR$/../linux/linux_dns_网络配置：驱动、网卡配置与DNS/13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linux/linux_file_文件系统结构与管理/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../linux/linux_file_文件系统结构与管理/01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linux/linux_file_文件系统结构与管理/02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../linux/linux_file_文件系统结构与管理/02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linux/linux_install_安装与配置/02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../linux/linux_install_安装与配置/02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle/oracle_base数据库基础管理_用户与权限管理课件/10.py" beforeDir="false" afterPath="$PROJECT_DIR$/../oracle/oracle_base数据库基础管理_用户与权限管理课件/10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/WEBLOGIC_insatll图形、字符安装/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/WEBLOGIC_insatll图形、字符安装/01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/__init__.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/base/WEBLOGIC_insatll图形、字符安装/01.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/base/WEBLOGIC_insatll图形、字符安装/01.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="660" />
+    <option name="y" value="21" />
+    <option name="width" value="1189" />
+    <option name="height" value="810" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="weblogic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weblogic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weblogic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weblogic" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weblogic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weblogic" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="WEBLOGIC_insatll图形、字符安装" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../linux" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2540238f-f96d-4dd7-9b50-619b50ce674b" name="Default Changelist" comment="" />
+      <created>1570940183160</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570940183160</updated>
+      <workItem from="1570940184947" duration="1648000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1648000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/base/WEBLOGIC_insatll图形、字符安装/01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

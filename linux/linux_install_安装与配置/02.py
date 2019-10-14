@@ -1,6 +1,5 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# -*- coding: utf-8 -*-
 try:
     import commands
     save_address = "/tmp/score.txt"

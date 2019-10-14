@@ -15,7 +15,6 @@ try:
                 f.write("Linux文件系统结构与管理题目二:文件%s存在 ---ok\n" % var)
                 cmd = "ls %s" % name
                 ret = commands.getoutput(cmd)
-                print ret
 
                 if ret:
                     f.write("Linux文件系统结构与管理题目二:备份文件%s存在 ---ok\n" % ret)

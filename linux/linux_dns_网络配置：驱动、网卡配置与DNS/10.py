@@ -22,9 +22,9 @@ try:
                 ret = commands.getoutput(cmd_cat)
                 ret = re.findall(r'ESTABLISHED\s+\d+', ret)
                 if ret:
-                    f.write("LINUX系统基本组成题目十：检查对比输出正确, ---ok\n'")
+                    f.write("LINUX系统基本组成题目十：检查对比输出正确, ---ok\n")
                 else:
-                    f.write("LINUX系统基本组成题目十：检查对比输出不正确, ---error\n'")
+                    f.write("LINUX系统基本组成题目十：检查对比输出不正确, ---error\n")
 
             else:
                 f.write("LINUX系统基本组成题目十:文件%s不存在, ---error\n" % linux_10_file)

@@ -18,9 +18,9 @@ try:
             com_ret = commands.getoutput(cmd_ip)
 
             if com_ret == "":
-                f.write("LINUX系统基本组成题目三:查询路由过滤失败, ---error" + '\n')
+                f.write("LINUX系统基本组成题目三:查询路由过滤失败, ---error\n")
             else:
-                f.write("LINUX系统基本组成题目三:查询路由过滤成功, ---ok" + '\n')
+                f.write("LINUX系统基本组成题目三:查询路由过滤成功, ---ok\n")
 
         except Exception as e:
             print str(e) + '---except'

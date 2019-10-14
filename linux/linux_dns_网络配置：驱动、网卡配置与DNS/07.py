@@ -21,10 +21,10 @@ try:
                 com_ret_1 = commands.getoutput(cmd_cat_1)
                 com_ret_1 = re.findall(r'\d+年\s+\d+月\s+\d+日', com_ret_1)
                 if com_ret_1:
-                    f.write("LINUX系统基本组成题目七:日期输出在第一行, ---ok\n'")
+                    f.write("LINUX系统基本组成题目七:日期输出在第一行, ---ok\n")
 
                 else:
-                    f.write("LINUX系统基本组成题目七:日期输出不在第一行, ---error\n'")
+                    f.write("LINUX系统基本组成题目七:日期输出不在第一行, ---error\n")
 
                 # 2
                 cmd_cat_2 = "sed -n 2p %s" % linux_txt_7

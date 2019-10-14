@@ -17,9 +17,9 @@ try:
             com_ret = commands.getoutput(cmd_cat)
             ip_list = re.findall(r'%s' % linux_txt_2, com_ret)
             if linux_txt_2 in ip_list:
-                f.write("LINUX系统基本组成题目二:检查eth1的IP地址，正常输出为192.168.100.3, ---ok" + '\n')
+                f.write("LINUX系统基本组成题目二:检查eth1的IP地址，正常输出为192.168.100.3, ---ok\n")
             else:
-                f.write("LINUX系统基本组成题目二:检查eth1的IP地址，正常输出不为192.168.100.3, ---error" + '\n')
+                f.write("LINUX系统基本组成题目二:检查eth1的IP地址，正常输出不为192.168.100.3, ---error\n")
 
         except Exception as e:
             print str(e) + '---except'

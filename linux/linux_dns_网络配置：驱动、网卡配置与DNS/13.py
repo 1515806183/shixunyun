@@ -18,9 +18,9 @@ try:
                 ret_cat = commands.getoutput(cmd_cat)
 
                 if ret in ret_cat:
-                    f.write("LINUX系统基本组成题目十三:检查显示几项为开启的 ---ok\n'")
+                    f.write("LINUX系统基本组成题目十三:检查显示几项为开启的 ---ok\n")
                 else:
-                    f.write("LINUX系统基本组成题目十三:检查显示几项有不开启的 ---error\n'")
+                    f.write("LINUX系统基本组成题目十三:检查显示几项有不开启的 ---error\n")
 
             else:
                 f.write("LINUX系统基本组成题目十三:文件%s不存在 ---error\n" % file)

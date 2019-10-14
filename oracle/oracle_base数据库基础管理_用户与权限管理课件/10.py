@@ -5,7 +5,6 @@ try:
     test_vlu_1 = '查询用户examuser204是否具备系统权限'
     test_vlu_2 = '查询用户examuser204是否拥有表test1'
 
-
     import cx_Oracle
     save_address = "/tmp/score.txt"
     # 数据库信息

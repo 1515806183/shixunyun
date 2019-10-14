@@ -19,9 +19,9 @@ try:
                 ret_cat = commands.getoutput(cmd_cat)
 
                 if ret in ret_cat:
-                    f.write("Linux文件系统结构与管理题目一:/etc/目录的总文件大小 ---ok\n'")
+                    f.write("Linux文件系统结构与管理题目一:/etc/目录的总文件大小 ---ok\n")
                 else:
-                    f.write("Linux文件系统结构与管理题目一:/etc/目录的总文件大小 ---error\n'")
+                    f.write("Linux文件系统结构与管理题目一:/etc/目录的总文件大小 ---error\n")
 
             else:
                 f.write("Linux文件系统结构与管理题目一:文件%s不存在 ---error\n" % name)

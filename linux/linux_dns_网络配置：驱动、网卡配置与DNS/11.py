@@ -21,9 +21,9 @@ try:
                 ret_cat = commands.getoutput(cmd_cat)
 
                 if ret in ret_cat:
-                    f.write("LINUX系统基本组成题目十一:检查对比输出正确 ---ok\n'")
+                    f.write("LINUX系统基本组成题目十一:检查对比输出正确 ---ok\n")
                 else:
-                    f.write("LINUX系统基本组成题目十一:检查对比输出不正确 ---error\n'")
+                    f.write("LINUX系统基本组成题目十一:检查对比输出不正确 ---error\n")
 
             else:
                 f.write("LINUX系统基本组成题目十一:文件%s不存在 ---error\n" % linux_11_file)
